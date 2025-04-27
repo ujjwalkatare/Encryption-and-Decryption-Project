@@ -1,0 +1,291 @@
+{% load custom_filters %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        background: #f4f6fc;
+        display: flex;
+        min-height: 100vh;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+      }
+      .sidebar {
+        width: 250px;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .sidebar h2 {
+        margin: 0;
+        font-size: 1.5em;
+        text-align: center;
+      }
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      .sidebar ul li {
+        margin: 15px 0;
+      }
+      .sidebar ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+        padding: 10px;
+        border-radius: 6px;
+      }
+      .sidebar ul li a:hover {
+        background-color: #142b6a;
+      }
+      .sidebar ul li a.active {
+        background-color: #142b6a;
+      }
+      .logout-btn {
+        background-color: #dc2626;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+      }
+      .logout-btn:hover {
+        background-color: #b91c1c;
+      }
+      .content {
+        flex-grow: 1;
+        padding: 20px;
+      }
+      h1 {
+        color: #1e3a8a;
+        margin-top: 0;
+      }
+      .card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        box-sizing: border-box;
+      }
+      .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        padding: 15px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+      }
+      .alert-info {
+        color: #0c5460;
+        background-color: #d1ecf1;
+        border: 1px solid #bee5eb;
+        padding: 15px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+        color: #1e3a8a;
+      }
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+      .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s;
+      }
+      .btn-view {
+        background-color: #1e3a8a;
+        color: white;
+        margin-right: 8px;
+      }
+      .btn-view:hover {
+        background-color: #142b6a;
+      }
+      .btn-request {
+        background-color: #1e3a8a;
+        color: white;
+      }
+      .btn-request:hover {
+        background-color: #142b6a;
+      }
+      .btn-success {
+        background-color: #28a745;
+        color: white;
+      }
+      .btn-success:hover {
+        background-color: #218838;
+      }
+      .status-waiting {
+        color: #666;
+        font-size: 0.9em;
+        padding: 8px;
+        background: #f8f9fa;
+        border-radius: 6px;
+        display: inline-block;
+      }
+      .status-approved {
+        color: #28a745;
+        font-weight: 600;
+      }
+      .status-pending {
+        color: #ffc107;
+        font-weight: 600;
+      }
+      .status-rejected {
+        color: #dc3545;
+        font-weight: 600;
+      }
+      .action-buttons {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+        .sidebar {
+          width: 100%;
+          padding: 15px;
+        }
+        table {
+          display: block;
+          overflow-x: auto;
+        }
+        .btn {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        .action-buttons {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ... sidebar content ... -->
+    <div class="content">
+      <div class="card">
+        <h1>Your Assigned Papers</h1>
+
+        {% if messages %} {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+        {% endfor %} {% endif %} {% if papers %}
+        <table>
+          <thead>
+            <tr>
+              <th>Exam</th>
+              <th>Subject</th>
+              <th>PAT</th>
+              <th>Request Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for paper in papers %}
+            <tr>
+              <td>{{ paper.exam_name }}</td>
+              <td>{{ paper.subject_name }}</td>
+              <td>{{ paper.pat }}</td>
+              <td>
+                {% with request=requests|get_item:paper.id %} {% if request %}
+                <span class="status-{{ request.status }}">
+                  {{ request.get_status_display }}
+                </span>
+                {% if request.status == 'rejected' and request.decision_notes %}
+                <br /><small>({{ request.decision_notes }})</small>
+                {% endif %} {% else %} Not Requested {% endif %} {% endwith %}
+              </td>
+              <td>
+                <div class="action-buttons">
+                  <!-- Always allow viewing the encrypted PDF -->
+                  <a
+                    href="{% url 'view_encrypted_pdf' paper.id %}"
+                    class="btn btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+
+                  <!-- New logic: Print if approved, otherwise Request Key -->
+                  {% with request=requests|get_item:paper.id %} {% if request %}
+                  {% if request.status == 'approved' %}
+                  <a
+                    href="{% url 'print_encrypted_pdf' paper.id %}"
+                    class="btn btn-print"
+                  >
+                    <i class="fas fa-print"></i> Print
+                  </a>
+                  {% endif %} {% else %}
+                  <form
+                    method="post"
+                    action="{% url 'request_aes_key' paper.id %}"
+                  >
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-request">
+                      <i class="fas fa-key"></i> Request Key
+                    </button>
+                  </form>
+                  {% endif %} {% endwith %}
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <div class="alert-info">No papers have been assigned to you yet.</div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --hacker-green: #0f0;
+        --terminal-bg: rgba(0, 20, 0, 0.8);
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        font-family: "Share Tech Mono", monospace;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+      }
+
+      #matrixCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.15;
+      }
+
+      .crt-effect {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        background: linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      .crt-effect::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(
+          circle at center,
+          transparent 70%,
+          rgba(0, 0, 0, 0.8)
+        );
+      }
+
+      .card-container {
+        width: 600px;
+        background-color: var(--terminal-bg);
+        border: 2px solid var(--hacker-green);
+        box-shadow: 0 0 15px var(--hacker-green);
+        animation: slideUp 0.7s ease-out;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: var(--hacker-green);
+      }
+
+      @keyframes slideUp {
+        from {
+          transform: translateY(40px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+
+      .card {
+        display: flex;
+        width: 100%;
+      }
+
+      .left,
+      .right {
+        flex: 1;
+        padding: 40px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--terminal-bg);
+      }
+
+      .left {
+        border-right: 1px solid var(--hacker-green);
+      }
+
+      h2 {
+        margin-bottom: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 0 0 5px var(--hacker-green), 0 0 10px var(--hacker-green);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        border: 1px solid var(--hacker-green);
+        background-color: rgba(0, 20, 0, 0.5);
+        color: var(--hacker-green);
+        font-size: 14px;
+        font-family: "Share Tech Mono", monospace;
+        box-shadow: 0 0 5px var(--hacker-green);
+      }
+
+      input:focus {
+        outline: none;
+        border-color: var(--hacker-green);
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      .form-fields {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .button-container {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+      }
+
+      .button {
+        background: linear-gradient(
+          to right,
+          rgba(0, 20, 0, 0.7) 50%,
+          var(--hacker-green) 50%
+        );
+        color: #000;
+        padding: 12px 40px;
+        border: 1px solid var(--hacker-green);
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        font-size: 16px;
+        box-shadow: 0 0 10px var(--hacker-green);
+        position: relative;
+        overflow: hidden;
+        font-family: "Share Tech Mono", monospace;
+        text-transform: uppercase;
+      }
+
+      .button:hover {
+        transform: scale(1.03);
+        background: var(--hacker-green);
+        color: #000;
+      }
+
+      .button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-color: var(--hacker-green);
+        z-index: -1;
+      }
+
+      .error {
+        color: #f00;
+        font-size: 12px;
+        display: none;
+        text-shadow: 0 0 3px #f00;
+        font-family: "Share Tech Mono", monospace;
+      }
+
+      .hex-data {
+        color: rgba(0, 255, 0, 0.7);
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="matrixCanvas"></canvas>
+    <div class="crt-effect"></div>
+    <div class="card-container">
+      <form method="POST" action="{% url 'user_login' %}" class="card">
+        {% csrf_token %}
+        <!-- Left Side -->
+        <div class="left">
+          <div class="form-fields">
+            <h2>User Login</h2>
+            <label for="username">Email</label>
+            <input type="email" id="username" name="username" required />
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="right">
+          <div class="form-fields">
+            <h2>Credentials</h2>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+            <div id="password_error_message" class="error">
+              Please enter a valid password
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="button-container">
+          <button type="submit" class="button">Login Now</button>
+        </div>
+        <div class="hex-data" id="hex-data"></div>
+      </form>
+    </div>
+
+    <script>
+      // Matrix Background Script
+      const canvas = document.getElementById("matrixCanvas");
+      const ctx = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const katakana =
+        "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン";
+      const latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const nums = "0123456789";
+      const symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+      const alphabet = katakana + latin + nums + symbols;
+
+      const fontSize = 16;
+      const columns = Math.floor(canvas.width / fontSize);
+      const rainDrops = Array(columns).fill(1);
+
+      function drawMatrix() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "#0f0";
+        ctx.font = fontSize + "px monospace";
+
+        for (let i = 0; i < rainDrops.length; i++) {
+          const text = alphabet.charAt(
+            Math.floor(Math.random() * alphabet.length)
+          );
+          const x = i * fontSize;
+          const y = rainDrops[i] * fontSize;
+
+          ctx.fillStyle = `rgba(0, 255, 0, ${Math.random() * 0.5 + 0.5})`;
+          ctx.fillText(text, x, y);
+
+          if (y > canvas.height && Math.random() > 0.975) {
+            rainDrops[i] = 0;
+          }
+
+          rainDrops[i]++;
+        }
+      }
+
+      setInterval(drawMatrix, 33);
+
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+
+      // Generate random hex data
+      function generateHexData() {
+        const hexData = document.getElementById("hex-data");
+        const lines = [];
+        for (let i = 0; i < 8; i++) {
+          let line = "";
+          for (let j = 0; j < 16; j++) {
+            line +=
+              Math.floor(Math.random() * 256)
+                .toString(16)
+                .padStart(2, "0") + " ";
+          }
+          lines.push(line);
+        }
+        hexData.textContent = lines.join("\n");
+      }
+      setInterval(generateHexData, 3000);
+      generateHexData();
+
+      // Basic client-side validation
+      document
+        .querySelector("form")
+        .addEventListener("submit", function (event) {
+          const password = document.getElementById("password").value;
+          const passwordError = document.getElementById(
+            "password_error_message"
+          );
+          if (password.length < 6) {
+            passwordError.style.display = "block";
+            event.preventDefault();
+          } else {
+            passwordError.style.display = "none";
+          }
+        });
+    </script>
+  </body>
+</html>

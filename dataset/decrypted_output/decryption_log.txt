@@ -1,0 +1,786 @@
+PDF successfully saved to: c:\Users\HP\Desktop\encryption_03\dataset\decrypted_output\decrypted_document.pdf
+
+Page 1:
+Box 1 - Position: [70.8499984741211, 366.43603515625, 93.2863998413086, 382.3120422363281]
+Original: Q1)
+Decrypted: Q1)
+Status: MATCH
+
+Box 2 - Position: [93.2863998413086, 366.43603515625, 109.61320495605469, 382.3120422363281]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 3 - Position: [127.61299896240234, 366.43603515625, 524.490234375, 382.3120422363281]
+Original: Derive the differential equation of motion for forced vibration in spring
+Decrypted: Derive the differential equation of motion for forced vibration in spring
+Status: MATCH
+
+Box 4 - Position: [127.61019897460938, 383.23602294921875, 248.3378143310547, 399.1120300292969]
+Original: damper mass system.
+Decrypted: damper mass system.
+Status: MATCH
+
+Box 5 - Position: [507.89080810546875, 383.23602294921875, 524.32958984375, 399.1120300292969]
+Original: [6]
+Decrypted: [6]
+Status: MATCH
+
+Box 6 - Position: [99.17062377929688, 407.955810546875, 111.17002868652344, 423.8318176269531]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 7 - Position: [127.6102294921875, 407.955810546875, 524.426513671875, 423.8318176269531]
+Original: In a vibratory system, a mass of 3 kg is suspended by a spring of
+Decrypted: In a vibratory system, a mass of 3 kg is suspended by a spring of
+Status: MATCH
+
+Box 8 - Position: [127.61022186279297, 424.75579833984375, 524.5029296875, 440.6318054199219]
+Original: stiffness 1200 N/m and it is subjected to harmonic excitation of 20 N.
+Decrypted: stiffness 1200 N/m and it is subjected to harmonic excitation of 20 N.
+Status: MATCH
+
+Box 9 - Position: [127.61022186279297, 441.5557861328125, 524.5272827148438, 457.4317932128906]
+Original: If the viscous damper is provided with the damping coefficient of
+Decrypted: If the viscous damper is provided with the damping coefficient of
+Status: MATCH
+
+Box 10 - Position: [127.61022186279297, 458.35577392578125, 252.8975372314453, 474.2317810058594]
+Original: 75 N-s/m, determine :
+Decrypted: 75 N-s/m, determine :
+Status: MATCH
+
+Box 11 - Position: [500.4498291015625, 458.35577392578125, 524.4500122070312, 474.2317810058594]
+Original: [12]
+Decrypted: [12]
+Status: MATCH
+
+Box 12 - Position: [127.6102294921875, 483.0755615234375, 135.8926239013672, 498.9515686035156]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 13 - Position: [155.93222045898438, 483.0755615234375, 299.2418518066406, 498.9515686035156]
+Original: The resonance frequency
+Decrypted: The resonance frequency
+Status: MATCH
+
+Box 14 - Position: [127.6102294921875, 507.7953186035156, 139.6138458251953, 523.6713256835938]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 15 - Position: [155.9336395263672, 507.7953186035156, 322.4076843261719, 523.6713256835938]
+Original: The phase angle at resonance
+Decrypted: The phase angle at resonance
+Status: MATCH
+
+Box 16 - Position: [127.6102294921875, 532.635498046875, 143.33921813964844, 548.5115356445312]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 17 - Position: [155.9308319091797, 532.635498046875, 312.6706848144531, 548.5115356445312]
+Original: The amplitude at resonance
+Decrypted: The amplitude at resonance
+Status: MATCH
+
+Box 18 - Position: [127.6102294921875, 557.3553466796875, 143.3322296142578, 573.2313842773438]
+Original: iv)
+Decrypted: iv)
+Status: MATCH
+
+Box 19 - Position: [155.93223571777344, 557.3553466796875, 431.9476318359375, 573.2313842773438]
+Original: The frequency corresponding to peak amplitude
+Decrypted: The frequency corresponding to peak amplitude
+Status: MATCH
+
+Box 20 - Position: [127.6102294921875, 582.0751342773438, 139.609619140625, 597.951171875]
+Original: v)
+Decrypted: v)
+Status: MATCH
+
+Box 21 - Position: [155.92941284179688, 582.0751342773438, 288.6549987792969, 597.951171875]
+Original: The damped frequency
+Decrypted: The damped frequency
+Status: MATCH
+
+Box 22 - Position: [287.5700378417969, 606.794921875, 307.84765625, 622.6709594726562]
+Original: OR
+Decrypted: OR
+Status: MATCH
+
+Box 23 - Position: [70.85003662109375, 631.6351318359375, 93.28643798828125, 647.5111694335938]
+Original: Q2)
+Decrypted: Q2)
+Status: MATCH
+
+Box 24 - Position: [93.28643798828125, 631.6351318359375, 109.61324310302734, 647.5111694335938]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 25 - Position: [127.61304473876953, 631.6351318359375, 180.0682373046875, 647.5111694335938]
+Original: Explain :
+Decrypted: Explain :
+Status: MATCH
+
+Box 26 - Position: [507.89080810546875, 631.6351318359375, 524.32958984375, 647.5111694335938]
+Original: [8]
+Decrypted: [8]
+Status: MATCH
+
+Box 27 - Position: [127.61019897460938, 656.3549194335938, 135.89260864257812, 672.23095703125]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 28 - Position: [155.93222045898438, 656.3549194335938, 259.3699035644531, 672.23095703125]
+Original: Forced Vibrations
+Decrypted: Forced Vibrations
+Status: MATCH
+
+Box 29 - Position: [127.61019897460938, 681.07470703125, 139.61378479003906, 696.9507446289062]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 30 - Position: [155.93357849121094, 681.07470703125, 217.3767547607422, 696.9507446289062]
+Original: Resonance
+Decrypted: Resonance
+Status: MATCH
+
+Box 31 - Position: [127.61019897460938, 705.7945556640625, 143.3391876220703, 721.6705932617188]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 32 - Position: [155.93080139160156, 705.7945556640625, 374.2312927246094, 721.6705932617188]
+Original: Quality Factor of the vibratory system
+Decrypted: Quality Factor of the vibratory system
+Status: MATCH
+
+Box 33 - Position: [127.61019897460938, 730.6347045898438, 143.3321990966797, 746.5107421875]
+Original: iv)
+Decrypted: iv)
+Status: MATCH
+
+Box 34 - Position: [155.93218994140625, 730.6347045898438, 355.387451171875, 746.5107421875]
+Original: Bandwidth of the vibratory system
+Decrypted: Bandwidth of the vibratory system
+Status: MATCH
+
+Box 35 - Position: [70.8499984741211, 55.05805206298828, 203.58078002929688, 68.66605377197266]
+Original: Total No. of Questions : 8]
+Decrypted: Total No. of Questions : 8]
+Status: MATCH
+
+Box 36 - Position: [411.8900146484375, 82.17804718017578, 524.3277587890625, 95.78604888916016]
+Original: [Total No. of Pages : 3
+Decrypted: [Total No. of Pages : 3
+Status: MATCH
+
+Box 37 - Position: [261.6499938964844, 100.64303588867188, 333.6449890136719, 119.4620361328125]
+Original: [6181]-12
+Decrypted: [6181]-12
+Status: MATCH
+
+Box 38 - Position: [183.2899932861328, 125.36300659179688, 411.997802734375, 144.1820068359375]
+Original: B.E. (Automobile Engineering)
+Decrypted: B.E. (Automobile Engineering)
+Status: MATCH
+
+Box 39 - Position: [153.65049743652344, 149.96371459960938, 441.61517333984375, 168.78271484375]
+Original: MACHINE & VEHICLE DYNAMICS
+Decrypted: MACHINE & VEHICLE DYNAMICS
+Status: MATCH
+
+Box 40 - Position: [144.2899932861328, 174.56301879882812, 256.398193359375, 193.38201904296875]
+Original: (2019 Pattern)
+Decrypted: (2019 Pattern)
+Status: MATCH
+
+Box 41 - Position: [258.6499938964844, 174.56301879882812, 450.96942138671875, 193.38201904296875]
+Original: (Semester - VII) (416482)
+Decrypted: (Semester - VII) (416482)
+Status: MATCH
+
+Box 42 - Position: [70.8499984741211, 214.6070098876953, 163.9040069580078, 228.9980010986328]
+Original: Time : 2½ Hours]
+Decrypted: Time : 2½ Hours]
+Status: MATCH
+
+Box 43 - Position: [429.9438171386719, 214.6070098876953, 524.3289184570312, 228.9980010986328]
+Original: [Max. Marks : 70
+Decrypted: [Max. Marks : 70
+Status: MATCH
+
+Box 44 - Position: [70.8499984741211, 234.4073028564453, 232.85079956054688, 248.7982940673828]
+Original: Instructions to the candidates:
+Decrypted: Instructions to the candidates:
+Status: MATCH
+
+Box 45 - Position: [99.16999816894531, 254.2925567626953, 110.44999694824219, 268.13006591796875]
+Original: 1)
+Decrypted: 1)
+Status: MATCH
+
+Box 46 - Position: [127.61000061035156, 254.2925567626953, 386.306396484375, 268.13006591796875]
+Original: Answer Q1 or Q2, Q3 or Q4, Q5 or Q6, Q7 or Q8.
+Decrypted: Answer Q1 or Q2, Q3 or Q4, Q5 or Q6, Q7 or Q8.
+Status: MATCH
+
+Box 47 - Position: [99.16999816894531, 273.612548828125, 110.44999694824219, 287.4500732421875]
+Original: 2)
+Decrypted: 2)
+Status: MATCH
+
+Box 48 - Position: [127.61000061035156, 273.612548828125, 397.6424255371094, 287.4500732421875]
+Original: Neat diagrams must be drawn wherever necessary.
+Decrypted: Neat diagrams must be drawn wherever necessary.
+Status: MATCH
+
+Box 49 - Position: [99.16999816894531, 292.81256103515625, 110.44999694824219, 306.65008544921875]
+Original: 3)
+Decrypted: 3)
+Status: MATCH
+
+Box 50 - Position: [127.61000061035156, 292.81256103515625, 363.8924865722656, 306.65008544921875]
+Original: Figures to the right side indicate full marks.
+Decrypted: Figures to the right side indicate full marks.
+Status: MATCH
+
+Box 51 - Position: [99.16999816894531, 312.0125732421875, 110.44999694824219, 325.85009765625]
+Original: 4)
+Decrypted: 4)
+Status: MATCH
+
+Box 52 - Position: [127.61000061035156, 312.0125732421875, 524.4552612304688, 325.85009765625]
+Original: Use of Logarithmic tables, slide rule, electroinc pocket calculator is allowed.
+Decrypted: Use of Logarithmic tables, slide rule, electroinc pocket calculator is allowed.
+Status: MATCH
+
+Box 53 - Position: [99.16999816894531, 331.33258056640625, 110.44999694824219, 345.17010498046875]
+Original: 5)
+Decrypted: 5)
+Status: MATCH
+
+Box 54 - Position: [127.61000061035156, 331.33258056640625, 310.6075134277344, 345.17010498046875]
+Original: Assume suitable data if necessary.
+Decrypted: Assume suitable data if necessary.
+Status: MATCH
+
+Box 55 - Position: [72.05000305175781, 83.33403015136719, 120.05000305175781, 101.47803497314453]
+Original: P-6479
+Decrypted: P-6479
+Status: MATCH
+
+Box 56 - Position: [382.3699951171875, 59.97803497314453, 442.3603820800781, 73.5860366821289]
+Original: SEAT No. :
+Decrypted: SEAT No. :
+Status: MATCH
+
+Box 57 - Position: [487.8500061035156, 762.6815185546875, 522.2939453125, 777.6260375976562]
+Original: P.T.O.
+Decrypted: P.T.O.
+Status: MATCH
+
+
+Page 2:
+Box 1 - Position: [70.8499984741211, 764.3615112304688, 124.84729766845703, 779.3060302734375]
+Original: [6181]-12
+Decrypted: [6181]-12
+Status: MATCH
+
+Box 2 - Position: [294.1669921875, 764.3615112304688, 300.9169921875, 779.3060302734375]
+Original: 2
+Decrypted: 2
+Status: MATCH
+
+Box 3 - Position: [99.16999816894531, 55.156036376953125, 111.16940307617188, 71.03203582763672]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 4 - Position: [127.60960388183594, 55.156036376953125, 524.516357421875, 71.03203582763672]
+Original: The rotating machine, having total mass of 20 kg, is having an eccentric
+Decrypted: The rotating machine, having total mass of 20 kg, is having an eccentric
+Status: MATCH
+
+Box 5 - Position: [127.6095962524414, 71.95602416992188, 524.4815063476562, 87.83202362060547]
+Original: mass of 1.5 kg with eccentricity of 25 mm. The machine rotates at
+Decrypted: mass of 1.5 kg with eccentricity of 25 mm. The machine rotates at
+Status: MATCH
+
+Box 6 - Position: [127.6095962524414, 88.75601196289062, 524.45361328125, 104.63201141357422]
+Original: 720 r.p.m. If the amplitude of vibrations, which is 20 mm, lags the
+Decrypted: 720 r.p.m. If the amplitude of vibrations, which is 20 mm, lags the
+Status: MATCH
+
+Box 7 - Position: [127.6095962524414, 105.55599975585938, 323.37579345703125, 121.43199920654297]
+Original: eccentric mass by 90°, determine :
+Decrypted: eccentric mass by 90°, determine :
+Status: MATCH
+
+Box 8 - Position: [500.4491882324219, 105.55599975585938, 524.4493408203125, 121.43199920654297]
+Original: [10]
+Decrypted: [10]
+Status: MATCH
+
+Box 9 - Position: [127.60958862304688, 124.63662719726562, 135.89198303222656, 140.5126190185547]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 10 - Position: [155.93157958984375, 124.63662719726562, 410.9666748046875, 140.5126190185547]
+Original: The natural circular frequency of the system;
+Decrypted: The natural circular frequency of the system;
+Status: MATCH
+
+Box 11 - Position: [127.60958862304688, 143.59683227539062, 139.6132049560547, 159.4728240966797]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 12 - Position: [155.93299865722656, 143.59683227539062, 297.676025390625, 159.4728240966797]
+Original: The damping factor; and
+Decrypted: The damping factor; and
+Status: MATCH
+
+Box 13 - Position: [127.60958862304688, 162.67745971679688, 143.3385772705078, 178.55345153808594]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 14 - Position: [155.93019104003906, 162.67745971679688, 524.52392578125, 178.55345153808594]
+Original: The amplitude and phase angle when eccentric mass rotates at
+Decrypted: The amplitude and phase angle when eccentric mass rotates at
+Status: MATCH
+
+Box 15 - Position: [155.93019104003906, 179.47744750976562, 220.3722381591797, 195.3534393310547]
+Original: 1440 r.p.m
+Decrypted: 1440 r.p.m
+Status: MATCH
+
+Box 16 - Position: [70.85079193115234, 217.63723754882812, 93.28719329833984, 233.5132293701172]
+Original: Q3)
+Decrypted: Q3)
+Status: MATCH
+
+Box 17 - Position: [93.28719329833984, 217.63723754882812, 109.61399841308594, 233.5132293701172]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 18 - Position: [127.61380004882812, 217.63723754882812, 524.4830322265625, 233.5132293701172]
+Original: Explain earth fixed coordinate system and vehicle coordinate system
+Decrypted: Explain earth fixed coordinate system and vehicle coordinate system
+Status: MATCH
+
+Box 19 - Position: [127.61099243164062, 234.43722534179688, 234.06419372558594, 250.31321716308594]
+Original: with neat diagram.
+Decrypted: with neat diagram.
+Status: MATCH
+
+Box 20 - Position: [507.8916015625, 234.43722534179688, 524.3303833007812, 250.31321716308594]
+Original: [9]
+Decrypted: [9]
+Status: MATCH
+
+Box 21 - Position: [99.17141723632812, 253.39743041992188, 111.17082214355469, 269.2734375]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 22 - Position: [127.61102294921875, 253.39743041992188, 180.06622314453125, 269.2734375]
+Original: Explain :
+Decrypted: Explain :
+Status: MATCH
+
+Box 23 - Position: [507.8916015625, 253.39743041992188, 524.3303833007812, 269.2734375]
+Original: [8]
+Decrypted: [8]
+Status: MATCH
+
+Box 24 - Position: [127.61099243164062, 272.4780578613281, 135.89340209960938, 288.35406494140625]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 25 - Position: [155.93301391601562, 272.4780578613281, 220.38905334472656, 288.35406494140625]
+Original: Gradability
+Decrypted: Gradability
+Status: MATCH
+
+Box 26 - Position: [127.61099243164062, 291.5586853027344, 139.6145782470703, 307.4346923828125]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 27 - Position: [155.93438720703125, 291.5586853027344, 231.6562042236328, 307.4346923828125]
+Original: Drawbar pull
+Decrypted: Drawbar pull
+Status: MATCH
+
+Box 28 - Position: [127.61099243164062, 310.6393127441406, 143.33998107910156, 326.51531982421875]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 29 - Position: [155.9315948486328, 310.6393127441406, 257.2243347167969, 326.51531982421875]
+Original: Rolling resistance
+Decrypted: Rolling resistance
+Status: MATCH
+
+Box 30 - Position: [127.61099243164062, 329.5995178222656, 143.33302307128906, 345.47552490234375]
+Original: iv)
+Decrypted: iv)
+Status: MATCH
+
+Box 31 - Position: [155.93301391601562, 329.5995178222656, 236.95657348632812, 345.47552490234375]
+Original: Tractive effort
+Decrypted: Tractive effort
+Status: MATCH
+
+Box 32 - Position: [287.57080078125, 348.68011474609375, 307.8484191894531, 364.5561218261719]
+Original: OR
+Decrypted: OR
+Status: MATCH
+
+Box 33 - Position: [70.85079956054688, 367.7607116699219, 93.28720092773438, 383.63671875]
+Original: Q4)
+Decrypted: Q4)
+Status: MATCH
+
+Box 34 - Position: [93.28720092773438, 367.7607116699219, 109.61400604248047, 383.63671875]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 35 - Position: [127.61380767822266, 367.7607116699219, 524.4774780273438, 383.63671875]
+Original: Derive the equation for normal reactions acting on axles of a vehicle,
+Decrypted: Derive the equation for normal reactions acting on axles of a vehicle,
+Status: MATCH
+
+Box 36 - Position: [127.61100006103516, 384.5606994628906, 373.6342468261719, 400.43670654296875]
+Original: when vehicle is on a slope and in rest state.
+Decrypted: when vehicle is on a slope and in rest state.
+Status: MATCH
+
+Box 37 - Position: [507.8916015625, 384.5606994628906, 524.3303833007812, 400.43670654296875]
+Original: [7]
+Decrypted: [7]
+Status: MATCH
+
+Box 38 - Position: [99.17141723632812, 403.64129638671875, 111.17082214355469, 419.5173034667969]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 39 - Position: [127.61102294921875, 403.64129638671875, 524.522216796875, 419.5173034667969]
+Original: Explain the different cases of dynamic axle loading with neat diagram
+Decrypted: Explain the different cases of dynamic axle loading with neat diagram
+Status: MATCH
+
+Box 40 - Position: [127.61101531982422, 420.4412841796875, 289.6246643066406, 436.3172912597656]
+Original: and mathematical equations.
+Decrypted: and mathematical equations.
+Status: MATCH
+
+Box 41 - Position: [500.45062255859375, 420.4412841796875, 524.4508056640625, 436.3172912597656]
+Original: [10]
+Decrypted: [10]
+Status: MATCH
+
+Box 42 - Position: [70.850830078125, 458.4806823730469, 93.2872314453125, 474.356689453125]
+Original: Q5)
+Decrypted: Q5)
+Status: MATCH
+
+Box 43 - Position: [93.2872314453125, 458.4806823730469, 109.6140365600586, 474.356689453125]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 44 - Position: [127.61383056640625, 458.4806823730469, 524.478759765625, 474.356689453125]
+Original: Explain automatic transmission with respect to torque versus speed
+Decrypted: Explain automatic transmission with respect to torque versus speed
+Status: MATCH
+
+Box 45 - Position: [127.61103057861328, 475.2806701660156, 156.8990478515625, 491.15667724609375]
+Original: ratio.
+Decrypted: ratio.
+Status: MATCH
+
+Box 46 - Position: [507.8916320800781, 475.2806701660156, 524.3303833007812, 491.15667724609375]
+Original: [7]
+Decrypted: [7]
+Status: MATCH
+
+Box 47 - Position: [99.17144775390625, 494.36126708984375, 111.17084503173828, 510.2372741699219]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 48 - Position: [127.61104583740234, 494.36126708984375, 372.097412109375, 510.2372741699219]
+Original: Explain engine power limited acceleration.
+Decrypted: Explain engine power limited acceleration.
+Status: MATCH
+
+Box 49 - Position: [500.4520568847656, 494.36126708984375, 524.4522094726562, 510.2372741699219]
+Original: [10]
+Decrypted: [10]
+Status: MATCH
+
+Box 50 - Position: [287.572265625, 513.4418334960938, 307.8498840332031, 529.31787109375]
+Original: OR
+Decrypted: OR
+Status: MATCH
+
+Box 51 - Position: [70.85226440429688, 532.4020385742188, 93.28866577148438, 548.278076171875]
+Original: Q6)
+Decrypted: Q6)
+Status: MATCH
+
+Box 52 - Position: [93.28866577148438, 532.4020385742188, 109.61547088623047, 548.278076171875]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 53 - Position: [127.61527252197266, 532.4020385742188, 524.5164794921875, 548.278076171875]
+Original: A car weighing 2000 kg travelling at a speed of 40 km/hr. The driver
+Decrypted: A car weighing 2000 kg travelling at a speed of 40 km/hr. The driver
+Status: MATCH
+
+Box 54 - Position: [127.61246490478516, 549.2020263671875, 524.4500122070312, 565.0780639648438]
+Original: puts on the brakes with a steady brake force or 9000 N, when he sees a
+Decrypted: puts on the brakes with a steady brake force or 9000 N, when he sees a
+Status: MATCH
+
+Box 55 - Position: [127.61246490478516, 566.0020141601562, 278.33929443359375, 581.8780517578125]
+Original: stop sign. Determine, the :
+Decrypted: stop sign. Determine, the :
+Status: MATCH
+
+Box 56 - Position: [500.4520568847656, 566.0020141601562, 524.4522094726562, 581.8780517578125]
+Original: [12]
+Decrypted: [12]
+Status: MATCH
+
+Box 57 - Position: [127.61245727539062, 585.0826416015625, 135.8948516845703, 600.9586791992188]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 58 - Position: [155.9344482421875, 585.0826416015625, 287.9614562988281, 600.9586791992188]
+Original: Deceleration of the car.
+Decrypted: Deceleration of the car.
+Status: MATCH
+
+Box 59 - Position: [127.61245727539062, 604.1632080078125, 139.6160430908203, 620.0392456054688]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 60 - Position: [155.93585205078125, 604.1632080078125, 319.39141845703125, 620.0392456054688]
+Original: Stopping distance of the car.
+Decrypted: Stopping distance of the car.
+Status: MATCH
+
+Box 61 - Position: [127.61245727539062, 623.2437744140625, 143.34144592285156, 639.1198120117188]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 62 - Position: [155.9330596923828, 623.2437744140625, 273.6758117675781, 639.1198120117188]
+Original: Time to stop the car.
+Decrypted: Time to stop the car.
+Status: MATCH
+
+Box 63 - Position: [127.61245727539062, 642.2039794921875, 143.2224578857422, 658.0800170898438]
+Original: iv)
+Decrypted: iv)
+Status: MATCH
+
+Box 64 - Position: [155.8224639892578, 642.2039794921875, 351.70770263671875, 658.0800170898438]
+Original: Energy dissipated during braking.
+Decrypted: Energy dissipated during braking.
+Status: MATCH
+
+Box 65 - Position: [127.61245727539062, 661.2846069335938, 139.61184692382812, 677.16064453125]
+Original: v)
+Decrypted: v)
+Status: MATCH
+
+Box 66 - Position: [155.931640625, 661.2846069335938, 458.2613830566406, 677.16064453125]
+Original: Brake power dissipated at point of brake application.
+Decrypted: Brake power dissipated at point of brake application.
+Status: MATCH
+
+Box 67 - Position: [127.61245727539062, 680.365234375, 143.33445739746094, 696.2412719726562]
+Original: vi)
+Decrypted: vi)
+Status: MATCH
+
+Box 68 - Position: [155.93446350097656, 680.365234375, 402.6956787109375, 696.2412719726562]
+Original: Brake power dissipated average at the stop.
+Decrypted: Brake power dissipated average at the stop.
+Status: MATCH
+
+Box 69 - Position: [127.61245727539062, 699.44580078125, 465.8804016113281, 715.3218383789062]
+Original: Neglect, aerodynamic, rolling and drawbar pull resistances.
+Decrypted: Neglect, aerodynamic, rolling and drawbar pull resistances.
+Status: MATCH
+
+Box 70 - Position: [99.17285919189453, 718.406005859375, 111.1722640991211, 734.2820434570312]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 71 - Position: [127.61246490478516, 718.406005859375, 524.4862060546875, 734.2820434570312]
+Original: Derive the generalized equation for braking performance of a vehicle
+Decrypted: Derive the generalized equation for braking performance of a vehicle
+Status: MATCH
+
+Box 72 - Position: [127.61245727539062, 735.2059936523438, 180.0508575439453, 751.08203125]
+Original: on slope.
+Decrypted: on slope.
+Status: MATCH
+
+Box 73 - Position: [507.89306640625, 735.2059936523438, 524.3318481445312, 751.08203125]
+Original: [5]
+Decrypted: [5]
+Status: MATCH
+
+
+Page 3:
+Box 1 - Position: [70.8499984741211, 764.3615112304688, 124.84729766845703, 779.3060302734375]
+Original: [6181]-12
+Decrypted: [6181]-12
+Status: MATCH
+
+Box 2 - Position: [294.1669921875, 764.3615112304688, 300.9169921875, 779.3060302734375]
+Original: 3
+Decrypted: 3
+Status: MATCH
+
+Box 3 - Position: [70.8499984741211, 55.156036376953125, 93.2863998413086, 71.03203582763672]
+Original: Q7)
+Decrypted: Q7)
+Status: MATCH
+
+Box 4 - Position: [93.2863998413086, 55.156036376953125, 109.61320495605469, 71.03203582763672]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 5 - Position: [127.61300659179688, 55.156036376953125, 365.39453125, 71.03203582763672]
+Original: Explain mathematical model of handling.
+Decrypted: Explain mathematical model of handling.
+Status: MATCH
+
+Box 6 - Position: [507.8907775878906, 55.156036376953125, 524.3295288085938, 71.03203582763672]
+Original: [9]
+Decrypted: [9]
+Status: MATCH
+
+Box 7 - Position: [99.17059326171875, 83.35623168945312, 111.16999816894531, 99.23223114013672]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 8 - Position: [127.61019897460938, 83.35623168945312, 180.06539916992188, 99.23223114013672]
+Original: Explain :
+Decrypted: Explain :
+Status: MATCH
+
+Box 9 - Position: [507.8907775878906, 83.35623168945312, 524.3295288085938, 99.23223114013672]
+Original: [9]
+Decrypted: [9]
+Status: MATCH
+
+Box 10 - Position: [127.61016845703125, 111.43600463867188, 135.89256286621094, 127.31200408935547]
+Original: i)
+Decrypted: i)
+Status: MATCH
+
+Box 11 - Position: [155.93215942382812, 111.43600463867188, 232.38616943359375, 127.31200408935547]
+Original: Yaw velocity
+Decrypted: Yaw velocity
+Status: MATCH
+
+Box 12 - Position: [127.61016845703125, 139.63619995117188, 139.61375427246094, 155.51219177246094]
+Original: ii)
+Decrypted: ii)
+Status: MATCH
+
+Box 13 - Position: [155.9335479736328, 139.63619995117188, 227.21871948242188, 155.51219177246094]
+Original: Neutral steer
+Decrypted: Neutral steer
+Status: MATCH
+
+Box 14 - Position: [127.61016845703125, 167.71597290039062, 143.3391571044922, 183.5919647216797]
+Original: iii)
+Decrypted: iii)
+Status: MATCH
+
+Box 15 - Position: [155.93077087402344, 167.71597290039062, 265.38836669921875, 183.5919647216797]
+Original: Constant speed test
+Decrypted: Constant speed test
+Status: MATCH
+
+Box 16 - Position: [287.57135009765625, 195.91616821289062, 307.8489685058594, 211.7921600341797]
+Original: OR
+Decrypted: OR
+Status: MATCH
+
+Box 17 - Position: [70.85134887695312, 223.99594116210938, 93.28775024414062, 239.87193298339844]
+Original: Q8)
+Decrypted: Q8)
+Status: MATCH
+
+Box 18 - Position: [93.28775024414062, 223.99594116210938, 217.63717651367188, 239.87193298339844]
+Original: Write short note on :
+Decrypted: Write short note on :
+Status: MATCH
+
+Box 19 - Position: [500.45257568359375, 223.99594116210938, 524.4527587890625, 239.87193298339844]
+Original: [18]
+Decrypted: [18]
+Status: MATCH
+
+Box 20 - Position: [99.17196655273438, 252.19613647460938, 109.61457061767578, 268.0721435546875]
+Original: a)
+Decrypted: a)
+Status: MATCH
+
+Box 21 - Position: [127.61436462402344, 252.19613647460938, 303.9136047363281, 268.0721435546875]
+Original: Semi-active suspension system
+Decrypted: Semi-active suspension system
+Status: MATCH
+
+Box 22 - Position: [99.17196655273438, 280.3963317871094, 111.17277526855469, 296.2723388671875]
+Original: b)
+Decrypted: b)
+Status: MATCH
+
+Box 23 - Position: [127.61437225341797, 280.3963317871094, 278.37481689453125, 296.2723388671875]
+Original: Active suspension system.
+Decrypted: Active suspension system.
+Status: MATCH
+
+Box 24 - Position: [99.17196655273438, 308.4761047363281, 109.61457061767578, 324.35211181640625]
+Original: c)
+Decrypted: c)
+Status: MATCH
+
+Box 25 - Position: [127.61436462402344, 308.4761047363281, 369.0655212402344, 324.35211181640625]
+Original: Excitation sources For vehicle ride model.
+Decrypted: Excitation sources For vehicle ride model.
+Status: MATCH
+
+Box 26 - Position: [273.2900085449219, 364.52801513671875, 322.002197265625, 385.58001708984375]
+Original: 
+Decrypted: 
+Status: MATCH

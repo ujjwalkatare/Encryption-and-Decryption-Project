@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<style>
+    /* General Styles */
+    .custom-card {
+        border-radius: 12px;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .custom-card:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .custom-header {
+        background-color: #0e78eb; /* Adjust color if necessary */
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: white; /* Set text color here */
+        font-size: 30px;
+    }
+
+    .custom-card-body {
+        padding: 20px;
+    }
+
+    /* Form Fields */
+    .form-floating input {
+        border-radius: 5px;
+        border: 1px solid #000000;
+        padding: 12px 15px;
+        width: 100%; /* Ensures full-width input fields */
+    }
+
+    .form-floating label {
+        color: #000000;
+        font-weight: 500;
+    }
+
+    /* Button */
+    .btn-xl {
+        color:white;
+        padding: 10px 40px;
+        font-size: 18px;
+        background-color: #0e78eb;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-xl:hover {
+        background-color: #0e78eb; /* Hover color */
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 768px) {
+        .custom-card {
+            margin-bottom: 20px;
+        }
+
+        .form-floating input {
+            font-size: 14px;
+            padding: 10px 12px;
+        }
+
+        .btn-xl {
+            padding: 8px 30px;
+            font-size: 16px;
+        }
+    }
+
+    /* Divider Styles */
+    .divider-custom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .divider-custom-line {
+        width: 100px;
+        height: 2px;
+        background-color: #ccc;
+    }
+
+    .divider-custom-icon {
+        margin: 0 15px;
+        font-size: 30px;
+        color: #007bff;
+    }
+
+    /* Adjust Heading */
+    .page-section-heading {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    /* Submit Button Center */
+    .text-center {
+        text-align: center;
+    }
+
+    /* Container Padding */
+    .container-padding {
+        padding: 10px;
+    }
+</style>
+
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-4 mt-5">Registration</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form in a Card-->
+        <div class="container mt-4 container-padding">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 col-sm-12">
+                    <!-- Bootstrap Card -->
+                    <div class="card shadow-lg border-0 custom-card">
+                        <div class="card-header custom-header">
+                            <center>Register</center>
+                        </div>
+                        <div class="card-body p-4 custom-card-body">
+                            <form action="register" method="POST">
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- First Name input-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="fname" name="fname" type="text" placeholder="Enter your first name" required />
+                                            <label for="fname">First Name</label>
+                                        </div>
+                                        <!-- Email input-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="username" type="email" name="username" placeholder="name@example.com" required />
+                                            <label for="username">Email Address</label>
+                                        </div>
+                                        <!-- Password input (was phone number field)-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="password" name="password" type="password" placeholder="Enter your password" required />
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- Last Name input-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="lname" name="lname" type="text" placeholder="Enter your last name" required />
+                                            <label for="lname">Last Name</label>
+                                        </div>
+                                        
+                                        <!-- Phone Number input (was password field)-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="phone" name="phone" type="text" placeholder="Enter your number" 
+                                                   minlength="10" maxlength="10" required 
+                                                   oninput="validatePhoneNumber(this);" />
+                                            <label for="phone">Phone Number</label>
+                                            <small id="phone_error_message" style="color: red; display: none;">Please enter a valid 10-digit contact number</small>
+                                        </div>
+                                        <!-- Confirm Password input-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirm your password" required />
+                                            <label for="confirmPassword">Confirm Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Submit Button-->
+                                <div class="text-center mt-3">
+                                    <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End of Bootstrap Card -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function validatePhoneNumber(input) {
+        const phoneError = document.getElementById('phone_error_message');
+        
+        // Ensure only digits are allowed
+        input.value = input.value.replace(/\D/g, ''); // Removes non-digit characters
+        
+        // Check the length of the input
+        if (input.value.length !== 10) {
+            phoneError.style.display = 'block'; // Show error message
+        } else {
+            phoneError.style.display = 'none'; // Hide error message
+        }
+    }
+</script>
+
+{% endblock body %}
+

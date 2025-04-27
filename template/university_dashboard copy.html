@@ -1,0 +1,500 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>University Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        background: #f4f6fc;
+        padding: 20px;
+      }
+      h1 {
+        color: #1e3a8a;
+      }
+      .card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 40px;
+      }
+      label {
+        font-weight: 600;
+        display: block;
+        margin-top: 15px;
+      }
+      input[type="text"],
+      input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+      button {
+        background-color: #1e3a8a;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      button:hover {
+        background-color: #142b6a;
+      }
+      .success,
+      .error {
+        margin-top: 15px;
+        font-weight: 600;
+      }
+      .success {
+        color: green;
+      }
+      .error {
+        color: red;
+      }
+      .form-error {
+        color: red;
+        font-size: 0.9em;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>University Dashboard - Upload Question Paper</h1>
+      {% if messages %} {% for message in messages %}
+      <div
+        class="{% if message.tags %}{{ message.tags }}{% else %}success{% endif %}"
+      >
+        {{ message }}
+      </div>
+      {% endfor %} {% endif %}
+      <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %} {{ form.non_field_errors }}
+        <div>
+          <label for="{{ form.exam_name.id_for_label }}">Exam Name</label>
+          {{ form.exam_name }} {% if form.exam_name.errors %}
+          <div class="form-error">{{ form.exam_name.errors }}</div>
+          {% endif %}
+        </div>
+        <div>
+          <label for="{{ form.pat.id_for_label }}">PAT</label>
+          {{ form.pat }} {% if form.pat.errors %}
+          <div class="form-error">{{ form.pat.errors }}</div>
+          {% endif %}
+        </div>
+        <div>
+          <label for="{{ form.subject_name.id_for_label }}">Subject Name</label>
+          {{ form.subject_name }} {% if form.subject_name.errors %}
+          <div class="form-error">{{ form.subject_name.errors }}</div>
+          {% endif %}
+        </div>
+        <div>
+          <label for="{{ form.original_pdf.id_for_label }}">Upload PDF</label>
+          {{ form.original_pdf }} {% if form.original_pdf.errors %}
+          <div class="form-error">{{ form.original_pdf.errors }}</div>
+          {% endif %}
+        </div>
+        <button type="submit">Upload and Encrypt</button>
+      </form>
+    </div>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #ffffff 50%, #1e3a8a 50%);
+        font-family: "Roboto", sans-serif;
+        color: #333;
+        overflow-x: hidden;
+      }
+
+      .container {
+        display: flex;
+        min-height: 100vh;
+      }
+
+      .sidebar {
+        width: 250px;
+        background: #1e3a8a;
+        color: #ffffff;
+        padding: 30px 20px;
+        position: fixed;
+        height: 100%;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: width 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .sidebar h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #ffffff;
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .sidebar ul li {
+        margin: 10px 0;
+      }
+
+      .sidebar ul li a,
+      .sidebar ul li button {
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: background 0.2s ease;
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .sidebar ul li a:hover,
+      .sidebar ul li button:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .main-content {
+        margin-left: 250px;
+        padding: 40px;
+        flex-grow: 1;
+        background: #ffffff;
+        min-height: 100vh;
+        overflow-y: auto;
+        max-height: 100vh;
+      }
+
+      .dashboard-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+
+      .dashboard-header h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #1e3a8a;
+      }
+
+      .card {
+        background: #ffffff;
+        padding: 25px;
+        margin-bottom: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+        max-height: calc(100vh - 200px);
+        overflow-y: auto;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #1e3a8a;
+        margin-bottom: 20px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+        position: relative;
+      }
+
+      .form-group label {
+        font-weight: 500;
+        display: block;
+        margin-bottom: 8px;
+        color: #1e3a8a;
+      }
+
+      .form-group input,
+      .form-group select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.2s ease;
+      }
+
+      .form-group input:focus {
+        outline: none;
+        border-color: #1e3a8a;
+        box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+      }
+
+      .form-group button {
+        background-color: #1e3a8a;
+        color: #ffffff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: background 0.2s ease;
+      }
+
+      .form-group button:hover {
+        background-color: #1e40af;
+      }
+
+      .error {
+        color: #dc2626;
+        font-size: 0.875rem;
+        margin-top: 5px;
+        display: none;
+      }
+
+      .error.show {
+        display: block;
+      }
+
+      .success {
+        color: #15803d;
+        font-size: 0.875rem;
+        margin-bottom: 15px;
+        padding: 10px;
+        background: #dcfce7;
+        border-radius: 8px;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .sidebar {
+          width: 200px;
+        }
+
+        .main-content {
+          margin-left: 200px;
+          padding: 20px;
+        }
+
+        .dashboard-header h2 {
+          font-size: 1.5rem;
+        }
+
+        .card {
+          padding: 20px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+
+        .main-content {
+          margin-left: 0;
+          padding: 15px;
+        }
+
+        .card {
+          max-height: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div>
+          <h4>University Dashboard</h4>
+          <ul>
+            <li><a href="/college_list">College List</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li><button id="logoutBtn">Logout</button></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="dashboard-header">
+          <h2>Create an Exam</h2>
+        </div>
+
+        <!-- Card for Upload Question Paper -->
+        <div class="card">
+          <h2>Upload Question Paper</h2>
+          <!-- Message Container -->
+          <div id="messageContainer"></div>
+
+          <form method="POST" enctype="multipart/form-data" id="uploadForm">
+            {% csrf_token %}
+
+            <div class="form-group">
+              <label for="id_exam_name">Exam Name</label>
+              <input type="text" id="id_exam_name" name="exam_name" required />
+              <div id="exam_name_error" class="error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="id_pat">PAT</label>
+              <input type="text" id="id_pat" name="pat" required />
+              <div id="pat_error" class="error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="id_subject_name">Subject Name</label>
+              <input
+                type="text"
+                id="id_subject_name"
+                name="subject_name"
+                required
+              />
+              <div id="subject_name_error" class="error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="id_original_pdf">Upload PDF</label>
+              <input
+                type="file"
+                id="id_original_pdf"
+                name="original_pdf"
+                accept="application/pdf"
+                required
+              />
+              <div id="original_pdf_error" class="error"></div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Upload and Encrypt</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Sidebar navigation
+      document.querySelectorAll(".sidebar a").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const destination = link.getAttribute("href");
+          window.location.href = destination; // Navigate to the actual link
+        });
+      });
+
+      // Logout button handler
+      document.getElementById("logoutBtn").addEventListener("click", () => {
+        if (confirm("Are you sure you want to logout?")) {
+          window.location.href = "/logout";
+        }
+      });
+
+      // Form submission handling
+      document
+        .getElementById("uploadForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Clear previous messages
+          const messageContainer = document.getElementById("messageContainer");
+          messageContainer.innerHTML = "";
+          document.querySelectorAll(".error").forEach((error) => {
+            error.textContent = "";
+            error.classList.remove("show");
+          });
+
+          // Validation
+          let isValid = true;
+          const examName = document.getElementById("id_exam_name").value.trim();
+          const pat = document.getElementById("id_pat").value.trim();
+          const subjectName = document
+            .getElementById("id_subject_name")
+            .value.trim();
+          const originalPdf =
+            document.getElementById("id_original_pdf").files[0];
+
+          if (!examName) {
+            document.getElementById("exam_name_error").textContent =
+              "Exam Name is required.";
+            document.getElementById("exam_name_error").classList.add("show");
+            isValid = false;
+          }
+
+          if (!pat) {
+            document.getElementById("pat_error").textContent =
+              "PAT is required.";
+            document.getElementById("pat_error").classList.add("show");
+            isValid = false;
+          }
+
+          if (!subjectName) {
+            document.getElementById("subject_name_error").textContent =
+              "Subject Name is required.";
+            document.getElementById("subject_name_error").classList.add("show");
+            isValid = false;
+          }
+
+          if (!originalPdf) {
+            document.getElementById("original_pdf_error").textContent =
+              "PDF file is required.";
+            document.getElementById("original_pdf_error").classList.add("show");
+            isValid = false;
+          } else if (!originalPdf.type.match("application/pdf")) {
+            document.getElementById("original_pdf_error").textContent =
+              "Please upload a valid PDF file.";
+            document.getElementById("original_pdf_error").classList.add("show");
+            isValid = false;
+          }
+
+          if (isValid) {
+            // Simulate form submission (replace with actual backend submission)
+            messageContainer.innerHTML =
+              '<div class="success">Question paper uploaded and encrypted successfully!</div>';
+
+            this.reset(); // Reset form
+          }
+        });
+    </script>
+  </body>
+</html>

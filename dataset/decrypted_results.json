@@ -1,0 +1,1880 @@
+[
+  [
+    {
+      "bbox": [
+        70.8499984741211,
+        366.43603515625,
+        93.2863998413086,
+        382.3120422363281
+      ],
+      "encrypted_text": "+qEyZPtCRvqG2nxxb3LVs6MYwV+SP9B80Ih5KTm0VeY8YTHf1Xdn7IeUe+iuogZFAQzAMCHidJ+Bffnh5/HuOA==",
+      "decrypted_text": "Q1)",
+      "original_text": "Q1)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.2863998413086,
+        366.43603515625,
+        109.61320495605469,
+        382.3120422363281
+      ],
+      "encrypted_text": "/WRktCmkcLl9d1UE6AgLxlqJ5sna/R8d1t1gk7RweL8lA6DIYykM8E9wtfYt99yFtj4JXl2nUxEglw9taPxtEw==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61299896240234,
+        366.43603515625,
+        524.490234375,
+        382.3120422363281
+      ],
+      "encrypted_text": "w8cuSUaDhjozTfhAaltvm6l8RhzKl+twvzBJJq2sbdce/Moc53qME5p3p0u44T0pmsOA9Dot6AxxImVzgFSmrBuvv9ItBYYBJhP7BpVy3xUInJCUdobK6HpbNPMucEGPC9TGKohxqOkRxpVBpbNmFPdDPmL9xwICflfwsItiXnY=",
+      "decrypted_text": "Derive the differential equation of motion for forced vibration in spring",
+      "original_text": "Derive the differential equation of motion for forced vibration in spring",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        383.23602294921875,
+        248.3378143310547,
+        399.1120300292969
+      ],
+      "encrypted_text": "DFw0GdaQ1+VbcJwFzhWC/IhFC0N4i761j8bzryjmKgsVMjLn1Dw48/ktKzJ/TVtTd9QRMnX2yAJW+OoopMMWgDJdnAPwl3fFl8pYrBkV5ng=",
+      "decrypted_text": "damper mass system.",
+      "original_text": "damper mass system.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.89080810546875,
+        383.23602294921875,
+        524.32958984375,
+        399.1120300292969
+      ],
+      "encrypted_text": "UctnuvnY3QMJUacqEGCad7HX3RsPHBwTwfFwSYVGWbsisH8DfVHMo1xxLyVm0iwEhmssIAs3FeA9QfAGtqBhmQ==",
+      "decrypted_text": "[6]",
+      "original_text": "[6]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17062377929688,
+        407.955810546875,
+        111.17002868652344,
+        423.8318176269531
+      ],
+      "encrypted_text": "rzC7sbtdvO3Gh1ITggeghqDEb8mDJbuqX3pAZMsOQvl+Y3KX4JEP59wDZxgPh6jhJwhRNWjhhXfmw2Uak93skw==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        407.955810546875,
+        524.426513671875,
+        423.8318176269531
+      ],
+      "encrypted_text": "CTd/2vSZa7/HHPj/2uKAmb3LntPe+AboAUBfn3kzNv1sqosgs/udSH6gCV32h+bD0LssBW0LTJ1ybA3vi8DeRsoEiajJJp7qORyaQw/GAcJdkMdkCdIjhuNB5gsorRskSZhwiFB+VIRrVhYZk0gGEfDdW+ldVA6GTjRa9yI7Mx8=",
+      "decrypted_text": "In a vibratory system, a mass of 3 kg is suspended by a spring of",
+      "original_text": "In a vibratory system, a mass of 3 kg is suspended by a spring of",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61022186279297,
+        424.75579833984375,
+        524.5029296875,
+        440.6318054199219
+      ],
+      "encrypted_text": "W9Qhgv9veHcUHif0qC96S7LoNgjiCZ209F4q25vyx04QXaJylrMk7mQv040XUFwjPsfiFvoXPDNbeobJmXPspv9kbkddpm0FM0SNBcSX+1XFYSfqe4RqbjBUwtYQ/uVVdlf2/TdzVXWiietiXHXKI8ZW71re41km3sbFY5NV5do=",
+      "decrypted_text": "stiffness 1200 N/m and it is subjected to harmonic excitation of 20 N.",
+      "original_text": "stiffness 1200 N/m and it is subjected to harmonic excitation of 20 N.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61022186279297,
+        441.5557861328125,
+        524.5272827148438,
+        457.4317932128906
+      ],
+      "encrypted_text": "BOAZndygm0DSkPlg2ClkOJVUgRKQRtG62bkZxB3iHjsZWblAvZSYlVMpKSFQUxnk/lSRuXK5CITNqWjS+lIWFqBTfmfjfo8ScWfXnwn59O3GKBvgdZyCrT+MMjpSeGgE5ZMd6qq9SgGKTgje7rRq8SSCFjyMaXeL4JqFeD7oLig=",
+      "decrypted_text": "If the viscous damper is provided with the damping coefficient of",
+      "original_text": "If the viscous damper is provided with the damping coefficient of",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61022186279297,
+        458.35577392578125,
+        252.8975372314453,
+        474.2317810058594
+      ],
+      "encrypted_text": "04fSVUA5WfbNA1MxhYI0khmOO74mNm8DUQ4Zz+Z9zDLTzL9SFamcfPJQkAR/sAjhjl9HzKXDtJiJOusrTL7NpIx70sUTRnp+F5e2RPlmd0U=",
+      "decrypted_text": "75 N-s/m, determine :",
+      "original_text": "75 N-s/m, determine :",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.4498291015625,
+        458.35577392578125,
+        524.4500122070312,
+        474.2317810058594
+      ],
+      "encrypted_text": "T+C7k2RaT7TMM6JGbl9Rm8xdNH5AnjRA5uXelHsu4A8cvBJqczrsZm/b8frVz0A8vF/f3gsCI6lCXa2YtaGk2g==",
+      "decrypted_text": "[12]",
+      "original_text": "[12]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        483.0755615234375,
+        135.8926239013672,
+        498.9515686035156
+      ],
+      "encrypted_text": "Iz/46jZUllyhDoZRix9vtX7zIVxh53G14O79qs9GWsIcmOoI4sA9XXRhcsH1PBhl65nW/kAdqdoyGF2pUCsEXg==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93222045898438,
+        483.0755615234375,
+        299.2418518066406,
+        498.9515686035156
+      ],
+      "encrypted_text": "jRWw6xiyU8nY9NeKDelT546qHGkOsBhJcTlB0BqBALDkB7AFVHumOdyHjoNpe6E0uGlp8oOi5q/hynyu49Yo3UVHtXPGAkTbQ5TzvFACjR8=",
+      "decrypted_text": "The resonance frequency",
+      "original_text": "The resonance frequency",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        507.7953186035156,
+        139.6138458251953,
+        523.6713256835938
+      ],
+      "encrypted_text": "6dcqBIoI/s+7r+4LJSJqWwQToX9TL5xR02C0zyfJ6+HNrIWnuiYQgtGyxuoCBMUEYFSZG0d2r57/lHv/rP4D0g==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9336395263672,
+        507.7953186035156,
+        322.4076843261719,
+        523.6713256835938
+      ],
+      "encrypted_text": "Z95wokH0g4D7TS69zUjQybuW2L+mGO/Yl8fndluHHvDB3l1jvk/cQFNtl1gydd9BxL6siFj500/OqcRhUaLBMnLpf0gcHpCklqozzgxsIWg=",
+      "decrypted_text": "The phase angle at resonance",
+      "original_text": "The phase angle at resonance",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        532.635498046875,
+        143.33921813964844,
+        548.5115356445312
+      ],
+      "encrypted_text": "KDpF3KWmOJXtnARAjKcf7jvzjkqDgiHhDMhvzx6eaAvo63bSOgpfm4mu+5dmRkwqt2gl/t6MWIa87PIFV7bG+g==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9308319091797,
+        532.635498046875,
+        312.6706848144531,
+        548.5115356445312
+      ],
+      "encrypted_text": "7xIXg+dUqZuv0VIchxRVjytOQdV4UZc3FNp6a4AMuYwLPXAFc0D4Rj0jF8dOiPhK1q5qTxMp6XIQDsqdjHEauaBaR7FyOawVMnztqlXHwlg=",
+      "decrypted_text": "The amplitude at resonance",
+      "original_text": "The amplitude at resonance",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        557.3553466796875,
+        143.3322296142578,
+        573.2313842773438
+      ],
+      "encrypted_text": "OX8i/jCTpqb3I4T7eQrvLO/bZ0WxvrvF0a9u9EaldcIx6dnKrYKwELq7h3+D76BTFQbT6S4vl0lhd2cMqhK96g==",
+      "decrypted_text": "iv)",
+      "original_text": "iv)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93223571777344,
+        557.3553466796875,
+        431.9476318359375,
+        573.2313842773438
+      ],
+      "encrypted_text": "j9LgZOo97pKnsplo29hsFUxq0+ke4JG+geeeD+Qehifjtsj3EKIcpT61nNf3GjbSWND/UzxZQg3BAzz3H0NRhetDtRYDZK821EvZcBNtQjyDN6by8WmxhZKjwZ2urCxq",
+      "decrypted_text": "The frequency corresponding to peak amplitude",
+      "original_text": "The frequency corresponding to peak amplitude",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6102294921875,
+        582.0751342773438,
+        139.609619140625,
+        597.951171875
+      ],
+      "encrypted_text": "RJzpBESBCU2h20jrnA40MvuMMjhWZrQSMkxppdKwJcWAd4yhyYWr5IbXhUqQagP7mMzq1co4BLkxqbyTtE6HRQ==",
+      "decrypted_text": "v)",
+      "original_text": "v)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.92941284179688,
+        582.0751342773438,
+        288.6549987792969,
+        597.951171875
+      ],
+      "encrypted_text": "87yVF3bQFRsLCcBLKoYSR37IHv1Ho0750/AFARJNjFxivmau+z5nS8kGzpW4xGqHiHE5iNL8+9NM+3XIYashZ6GaPYrkO8mjkSL5rDLKbDg=",
+      "decrypted_text": "The damped frequency",
+      "original_text": "The damped frequency",
+      "match": true
+    },
+    {
+      "bbox": [
+        287.5700378417969,
+        606.794921875,
+        307.84765625,
+        622.6709594726562
+      ],
+      "encrypted_text": "K7lDJIFwcvPf+o6FvMKzy8y2FAFYrBy04nBCJqhCN3uAIBr2d6bzM0kCy/N2hjW9i/7lf4m2AgY+N25djvtGJQ==",
+      "decrypted_text": "OR",
+      "original_text": "OR",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.85003662109375,
+        631.6351318359375,
+        93.28643798828125,
+        647.5111694335938
+      ],
+      "encrypted_text": "SV52DFLV5U57EGcxZbfI8u2EQUjfwcPmNTbMYlnZQuxt84lrUMyqYNrX+sCjlswZtAt//q2jt269hQed3WAz8Q==",
+      "decrypted_text": "Q2)",
+      "original_text": "Q2)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.28643798828125,
+        631.6351318359375,
+        109.61324310302734,
+        647.5111694335938
+      ],
+      "encrypted_text": "60Ot0Ein3lA2s0i+F/s+f9Zz+748FCA4JBlNtikKgB4tKC4nOeUPu0IjwJK1B6eIRhsu3UfOy6ObJl+AU+kvcA==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61304473876953,
+        631.6351318359375,
+        180.0682373046875,
+        647.5111694335938
+      ],
+      "encrypted_text": "EVHRD6GRJWis+1w139S5Zk2UWEVMYzyp8Qaofv292+WCr6rOmDnByGt16dxtXWYB/QO/VnJVz4p0T31fvg6cvQ==",
+      "decrypted_text": "Explain :",
+      "original_text": "Explain :",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.89080810546875,
+        631.6351318359375,
+        524.32958984375,
+        647.5111694335938
+      ],
+      "encrypted_text": "XU1UcSK4lC/Dc+u2kjD9mZTxcmcu1F6RwdgH0k+nOuz2Y/4rvNgbQ9x7KgiOQnbkP09sWCuibaK00VIDXTd4IA==",
+      "decrypted_text": "[8]",
+      "original_text": "[8]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        656.3549194335938,
+        135.89260864257812,
+        672.23095703125
+      ],
+      "encrypted_text": "ucdaNUPI6b5RC8w/GHwpIKZ1BuCyeW1V/SRl0IF0ZYJtTZCzbDo8NKVIkTmrBbDRPPDP8DCHVdVYRcbjVikJ4Q==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93222045898438,
+        656.3549194335938,
+        259.3699035644531,
+        672.23095703125
+      ],
+      "encrypted_text": "f6APC1th3GuhqW10AKkvdI46coblrm83QZjAdTO/NvQRhT+21rB6OB9RmpvWWRjWypBavqQUDPgSL0w4jNU4oygwZCNLydzMbDIRvvKjDO8=",
+      "decrypted_text": "Forced Vibrations",
+      "original_text": "Forced Vibrations",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        681.07470703125,
+        139.61378479003906,
+        696.9507446289062
+      ],
+      "encrypted_text": "EFFvirrXqPGmjy2pt36nlUg/XGGApOGnCXSGcyca2MXOHnZn3EDjwH2ICnfna5evb2E2u40wHYW3o2KDghyGBw==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93357849121094,
+        681.07470703125,
+        217.3767547607422,
+        696.9507446289062
+      ],
+      "encrypted_text": "SLzjncn2wTegSMYLP2w/92BQELSfKQAvG36SnwGKc5mc/i0LoE61ZN9Jj1N5J16fKP2H8oakI93OiHMbBiQJcQ==",
+      "decrypted_text": "Resonance",
+      "original_text": "Resonance",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        705.7945556640625,
+        143.3391876220703,
+        721.6705932617188
+      ],
+      "encrypted_text": "zvJusOh7xkahZBxUpoME6hSe0/ohsI783xX3ir3ERmb4pSThTixcRx0CvVuJXOiyqH8so1k1WSrKe/k3D1WObQ==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93080139160156,
+        705.7945556640625,
+        374.2312927246094,
+        721.6705932617188
+      ],
+      "encrypted_text": "lzWlgQSRAPlRytfhcskd+yfdG5PjWCE6FD/oZfxHAVVtCrPfaZyKLPCzEhyf2/JH0Kdxt8wIc9FAWcsR+CBCeMqYp/Q5zhH40pDQn7TnQToxkxw5nf1YE1qGzW6NOXLe",
+      "decrypted_text": "Quality Factor of the vibratory system",
+      "original_text": "Quality Factor of the vibratory system",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        730.6347045898438,
+        143.3321990966797,
+        746.5107421875
+      ],
+      "encrypted_text": "zRsGfXSX23tzi3i9lVevuQTJAePwFTmy0YEoxoicu2wphgVkEe6Dz8sFR4+AQ+o4BHLX4IwKhQrGCH3S2v0ZSQ==",
+      "decrypted_text": "iv)",
+      "original_text": "iv)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93218994140625,
+        730.6347045898438,
+        355.387451171875,
+        746.5107421875
+      ],
+      "encrypted_text": "1TlKDzIoF35Rc/Vi8YTnCBqG89uGCo6j1DKmRgZB+X09PXaYMo0R0Oj3eVTiKOzGETUJio5k4qlKxtYsvnHovCoGcbWr/TOchEr2Xd4bspNBRihI+VqFXL6YvHLlmk+y",
+      "decrypted_text": "Bandwidth of the vibratory system",
+      "original_text": "Bandwidth of the vibratory system",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.8499984741211,
+        55.05805206298828,
+        203.58078002929688,
+        68.66605377197266
+      ],
+      "encrypted_text": "H2sGQBr3BGzBXfboO33mu9h3Uxt+vHAUjEvgyMtkm6Q7wtfWK4eNA/Na9tDEQGiNhGqve5UbxsMmW+umArsL4IfYaN3Qt+MZLnD8vsJ6dC8=",
+      "decrypted_text": "Total No. of Questions : 8]",
+      "original_text": "Total No. of Questions : 8]",
+      "match": true
+    },
+    {
+      "bbox": [
+        411.8900146484375,
+        82.17804718017578,
+        524.3277587890625,
+        95.78604888916016
+      ],
+      "encrypted_text": "bVo6896cXM8gCIlKYTdgnMogulPKUuOa+n0XOLpZ0mMi1NWwilFSg/kXd0Ial7Tz2UZUtB1Kvpf21BodBZ/S/7ALto5JVQM82+ybwM9Cek4=",
+      "decrypted_text": "[Total No. of Pages : 3",
+      "original_text": "[Total No. of Pages : 3",
+      "match": true
+    },
+    {
+      "bbox": [
+        261.6499938964844,
+        100.64303588867188,
+        333.6449890136719,
+        119.4620361328125
+      ],
+      "encrypted_text": "FdXrGZBRRdp7pzoeyF9SwVq2IM5HFOhYoSX70Jty3Em3sfaPnQGLUV0kAwkZPpJ1hD8SY2TMRTpnu0KmjDyPow==",
+      "decrypted_text": "[6181]-12",
+      "original_text": "[6181]-12",
+      "match": true
+    },
+    {
+      "bbox": [
+        183.2899932861328,
+        125.36300659179688,
+        411.997802734375,
+        144.1820068359375
+      ],
+      "encrypted_text": "jqOWcceuvWzLBxg/YOR8+gAEGUSn4xykZx8upGZ5jYPTpCr1bK2TkaoDnwKHnrYLUER+BbJpp5mXsAPliCYyUF1htUcZZoWcNezwUrc7KfA=",
+      "decrypted_text": "B.E. (Automobile Engineering)",
+      "original_text": "B.E. (Automobile Engineering)",
+      "match": true
+    },
+    {
+      "bbox": [
+        153.65049743652344,
+        149.96371459960938,
+        441.61517333984375,
+        168.78271484375
+      ],
+      "encrypted_text": "C4pkA6HnN3KjrcCq8Ew/052uVohLlsIEnsFs4uGu7XlJvzjHKwdKO8EiuPUVzmfBGS+J07syQJZO5aIxs8o0xKm/v49XFmqIfa+Bo1kVFOk=",
+      "decrypted_text": "MACHINE & VEHICLE DYNAMICS",
+      "original_text": "MACHINE & VEHICLE DYNAMICS",
+      "match": true
+    },
+    {
+      "bbox": [
+        144.2899932861328,
+        174.56301879882812,
+        256.398193359375,
+        193.38201904296875
+      ],
+      "encrypted_text": "Es3cB5KKJTR7zkpEAG5v8obcqc9M7b9ebs7OouE29JtuBP98IoVlkAxwlLPwOKfDaxXwlR4Pk+A/yyU7eyBpSw==",
+      "decrypted_text": "(2019 Pattern)",
+      "original_text": "(2019 Pattern)",
+      "match": true
+    },
+    {
+      "bbox": [
+        258.6499938964844,
+        174.56301879882812,
+        450.96942138671875,
+        193.38201904296875
+      ],
+      "encrypted_text": "H/1O3NYcRHPSK4kn8CoSYDgTohl/Xn+DqOssLYaAqpmcVR2qvDdhdwnn0O0CKy9FbXOnOVotnsyH/5rlWN9GjGtKVtzMuJd+bOQUUY3uUo8=",
+      "decrypted_text": "(Semester - VII) (416482)",
+      "original_text": "(Semester - VII) (416482)",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.8499984741211,
+        214.6070098876953,
+        163.9040069580078,
+        228.9980010986328
+      ],
+      "encrypted_text": "c+MZ4Gd5kya9JTxbZxMDf1iokrW3sGYYgOKbf9KIJGCuKveK/FXhRveUFaFuJhgNidHrNhhJ+GRV8LXjq4dRFN/UAx5HVgpzygIrLECLGls=",
+      "decrypted_text": "Time : 2\u00bd Hours]",
+      "original_text": "Time : 2\u00bd Hours]",
+      "match": true
+    },
+    {
+      "bbox": [
+        429.9438171386719,
+        214.6070098876953,
+        524.3289184570312,
+        228.9980010986328
+      ],
+      "encrypted_text": "mnarVp2eAAw+rMqNuoyUw6UG2CF6tgrJC6ezDueZQyaGndXumQicheYmUK/WKZMziuT7+2V081uUgF9QpJSFpMoCXKAZAgWGGotn6mocKrM=",
+      "decrypted_text": "[Max. Marks : 70",
+      "original_text": "[Max. Marks : 70",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.8499984741211,
+        234.4073028564453,
+        232.85079956054688,
+        248.7982940673828
+      ],
+      "encrypted_text": "eYrK+CfwkXWKK0PghkQ9JWE6idxrA70F7I31qoGSz5P+rnB+10YyPpIkxpNYloj8DJsKVAnt1NHYNMwE29uC/BMO11M82WWDKqgylDD5KCE=",
+      "decrypted_text": "Instructions to the candidates:",
+      "original_text": "Instructions to the candidates:",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        254.2925567626953,
+        110.44999694824219,
+        268.13006591796875
+      ],
+      "encrypted_text": "NHgMy0hx4K44TdAa5cc9zpv51+OyO2e4aeQfl1IVcmAiHLWMCeElDlavCyy6Z2DJhmL8RK7gTedovVBMAClgeg==",
+      "decrypted_text": "1)",
+      "original_text": "1)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61000061035156,
+        254.2925567626953,
+        386.306396484375,
+        268.13006591796875
+      ],
+      "encrypted_text": "9sf7aeMXFVLZI6TvJk7TCOWIZ6ujSUwO+5+kj8uJk2YZQCe78w6A1/drd1lbW9NhHAzptmq4S5eGkqtqfPcfAj5ytfYMBfR2YGI44dDnJGDxKN2apmifxCyhjlw0VJ8W",
+      "decrypted_text": "Answer Q1 or Q2, Q3 or Q4, Q5 or Q6, Q7 or Q8.",
+      "original_text": "Answer Q1 or Q2, Q3 or Q4, Q5 or Q6, Q7 or Q8.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        273.612548828125,
+        110.44999694824219,
+        287.4500732421875
+      ],
+      "encrypted_text": "c/G0QQ4pCaW4gAda47MzsEHW+pKpxn7/cYE9mOW9Oqg2npOPxrV/opuIcH7xsJ8ApIj4ExEM50CLniq7UrcqSw==",
+      "decrypted_text": "2)",
+      "original_text": "2)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61000061035156,
+        273.612548828125,
+        397.6424255371094,
+        287.4500732421875
+      ],
+      "encrypted_text": "sTVqw8eV5e43PPecqWeoAAI/Ggwz07qmNaRWbeuy9vfSMGMvrH4yFzZHZZnuVsY2xlQu7vrfrb8Gud4JZOPHRkeKPRPufEnJg3cLhywcRGARXlFq627YkGrAU/FWbhLh",
+      "decrypted_text": "Neat diagrams must be drawn wherever necessary.",
+      "original_text": "Neat diagrams must be drawn wherever necessary.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        292.81256103515625,
+        110.44999694824219,
+        306.65008544921875
+      ],
+      "encrypted_text": "DTbFVfmXz+dRd8xLP8NhJiaM5aFYEBhi9mh9JUS5xzv5SEMsW2UAo22NyEJQJh2hiZmO4Kx/H/0Q8CN5i5EQAA==",
+      "decrypted_text": "3)",
+      "original_text": "3)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61000061035156,
+        292.81256103515625,
+        363.8924865722656,
+        306.65008544921875
+      ],
+      "encrypted_text": "3yHSU0rC3rQTL8gk6QBvZLXHGmUXv7GIOy4stXisAof1t/wqyzB+EsM/5klpjdB30LgqiUepUxNqwxBFShSI8y+zuGnvmedvB+1Q7w+ETw80hXgLlyEFivp7WmbH59gO",
+      "decrypted_text": "Figures to the right side indicate full marks.",
+      "original_text": "Figures to the right side indicate full marks.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        312.0125732421875,
+        110.44999694824219,
+        325.85009765625
+      ],
+      "encrypted_text": "LrdZeGFGfOpivIB0GiQHQt33LYOhLSbWgnGTWxeGrFnrSxtDlQX1RUM0cJJenwZqm38DaWIcAk8eNJMMeK9igw==",
+      "decrypted_text": "4)",
+      "original_text": "4)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61000061035156,
+        312.0125732421875,
+        524.4552612304688,
+        325.85009765625
+      ],
+      "encrypted_text": "4R9U/OSbqtK9O53CaQWlXCFv4KlJ2fbwyQDozDeFOc/LL4Dj19vCJ/pTP5ggytDNVvjlgOhGdMTt12PySbYb6S4wK7wIyI6NUBD+4SmMDImO3MfUD4SSQpTuKKdvUsyqOyfr/9w3gHno+c+JhrJ+YRJh/TzG38oyx8h2lzxeQYc=",
+      "decrypted_text": "Use of Logarithmic tables, slide rule, electroinc pocket calculator is allowed.",
+      "original_text": "Use of Logarithmic tables, slide rule, electroinc pocket calculator is allowed.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        331.33258056640625,
+        110.44999694824219,
+        345.17010498046875
+      ],
+      "encrypted_text": "C5mXPbpOFkaB2WCyggZLcZI5eRqaXzD0BlyRarXRoPpE0I8veE0PMPgrHnZCDvZYN0fjom17O04NMpf3TGllaw==",
+      "decrypted_text": "5)",
+      "original_text": "5)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61000061035156,
+        331.33258056640625,
+        310.6075134277344,
+        345.17010498046875
+      ],
+      "encrypted_text": "l6d7fwRjTXbFs7ek+fEQiR16TNe48rGgSQMb4oHkqCjfJubf2mKG04vHwNpoC9FnBjlLNU72lgBBWuBdnK+Yhc03288lmuFhD6KropcdrEUvt9a2sh27YLYbq6t/ezmL",
+      "decrypted_text": "Assume suitable data if necessary.",
+      "original_text": "Assume suitable data if necessary.",
+      "match": true
+    },
+    {
+      "bbox": [
+        72.05000305175781,
+        83.33403015136719,
+        120.05000305175781,
+        101.47803497314453
+      ],
+      "encrypted_text": "LfZHcErW1Oxpodf+afWY/EKYm2tvIQzaN7o8j6z0NnSTiZi/1P8kJuiHuYv5In/IBV+lha+3+t0l9soUW5R+wg==",
+      "decrypted_text": "P-6479",
+      "original_text": "P-6479",
+      "match": true
+    },
+    {
+      "bbox": [
+        382.3699951171875,
+        59.97803497314453,
+        442.3603820800781,
+        73.5860366821289
+      ],
+      "encrypted_text": "3kEFQweZbaaeM3Lqjnc1+ib/dpbFtDEiVZX1ksob2e5x9bXIF1F5tjWvoc8+nDjL+6y8RLSXWWBeXBMFoSLHVA==",
+      "decrypted_text": "SEAT No. :",
+      "original_text": "SEAT No. :",
+      "match": true
+    },
+    {
+      "bbox": [
+        487.8500061035156,
+        762.6815185546875,
+        522.2939453125,
+        777.6260375976562
+      ],
+      "encrypted_text": "KXsPferuP9Vgdaelz6gs5KTLsywR1MMQZGiGwqBiG4zQe2lV6xaAwdWHWpmEcr/vGli2SeX2xS/MyaRe6LlpxA==",
+      "decrypted_text": "P.T.O.",
+      "original_text": "P.T.O.",
+      "match": true
+    }
+  ],
+  [
+    {
+      "bbox": [
+        70.8499984741211,
+        764.3615112304688,
+        124.84729766845703,
+        779.3060302734375
+      ],
+      "encrypted_text": "opbMe7dZG92wFI8gqS8WsBqtfMKzs1xY9tr273iGgxHv/Epwwdk7xo4wzGLIgDePCTH/0k+AHsFNEYY2tXN6Ew==",
+      "decrypted_text": "[6181]-12",
+      "original_text": "[6181]-12",
+      "match": true
+    },
+    {
+      "bbox": [
+        294.1669921875,
+        764.3615112304688,
+        300.9169921875,
+        779.3060302734375
+      ],
+      "encrypted_text": "FANHqvwqtPGcnBwhkHc7SdU7OZ38pjhdYJEmGPFd9m9LfHZto02J6enpwlJdX2go0LK83mzRldynKbN4gK70ZQ==",
+      "decrypted_text": "2",
+      "original_text": "2",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.16999816894531,
+        55.156036376953125,
+        111.16940307617188,
+        71.03203582763672
+      ],
+      "encrypted_text": "21sku5LGKu5pvCBqfAnEagHvo7ZQfvo+hg9tGulP7Y1vkj9oQJRVwUzpMeA7CH61nhK2JUGw/biSizPh2eiuxQ==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.60960388183594,
+        55.156036376953125,
+        524.516357421875,
+        71.03203582763672
+      ],
+      "encrypted_text": "VHvZ5qdN0Tu9806RAqBLl1Ci4FlCr/aY5Rhor1omCkk/keTQB0/40odZVXisbbJjdBRN5AYjTSUXZs2bPRB08b8NCM0WqVqtMCoWrMi/UtgiWy1M9qkjDHGU413qcYRThebKUDrnTFbIu4uwqs7Yg9k5ImzW7NShRhrwEVnujNI=",
+      "decrypted_text": "The rotating machine, having total mass of 20 kg, is having an eccentric",
+      "original_text": "The rotating machine, having total mass of 20 kg, is having an eccentric",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6095962524414,
+        71.95602416992188,
+        524.4815063476562,
+        87.83202362060547
+      ],
+      "encrypted_text": "jHiVgDtCVior9j5VuCG9AaF/RDIHG9QMOBER9NYFHuRhQTUfNTsG+MG1+bHctfeXDQ37M2xmvf+gmWlCtXQoL9k0o1mQkdKg9nGTQqvVNDV849bTJZWA7hMjpXgieP6TIgapWvNu/svYmfuoRoVUv29wu+TwpTEvm9rlZ1H5gMU=",
+      "decrypted_text": "mass of 1.5 kg with eccentricity of 25 mm. The machine rotates at",
+      "original_text": "mass of 1.5 kg with eccentricity of 25 mm. The machine rotates at",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6095962524414,
+        88.75601196289062,
+        524.45361328125,
+        104.63201141357422
+      ],
+      "encrypted_text": "WoJnZMZYZPr+IA6/9oEVqcK3K/l75a2WJnWQMHNvOBzHN9AaERKg5Y9R8QgjBoeHVNma81DURKwe0Hg2O0z5p83dP/yhttHRLSqQypCI8IEVNAFl4ZggP6Uvl+gfJWYOHWNx2+S+LYkW2k8RACHeuvxLr6ln+YBkimRfO+iry+4=",
+      "decrypted_text": "720 r.p.m. If the amplitude of vibrations, which is 20 mm, lags the",
+      "original_text": "720 r.p.m. If the amplitude of vibrations, which is 20 mm, lags the",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.6095962524414,
+        105.55599975585938,
+        323.37579345703125,
+        121.43199920654297
+      ],
+      "encrypted_text": "o59IDF2QSnu2ROVzwdgHFNv3ToIhc9OTIcNQa2xgvqtZG6hVYdNLOATLmr12+yyTdiDZqabEccissgk+ICNtcugKJTOo5Llw2mhB+9WnVAqNZRfkYzqUI4esm4m7dTd4",
+      "decrypted_text": "eccentric mass by 90\u00b0, determine :",
+      "original_text": "eccentric mass by 90\u00b0, determine :",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.4491882324219,
+        105.55599975585938,
+        524.4493408203125,
+        121.43199920654297
+      ],
+      "encrypted_text": "IdVRt1iRDFlvZMJnGoDW0uMnySo5t4hhvwbr5CtVaotwiXXHeod8zkvYN+yFBMPA4dxoF+9WUpdx49TD0h4C8Q==",
+      "decrypted_text": "[10]",
+      "original_text": "[10]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.60958862304688,
+        124.63662719726562,
+        135.89198303222656,
+        140.5126190185547
+      ],
+      "encrypted_text": "8szjC8Xox1kFRHu2uqBLuZhoc47zq3om5FAKxpBY6D0h01z//Wl4flWexKRKXCQoviA3I+JqCEG5dcxAUkFpEQ==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93157958984375,
+        124.63662719726562,
+        410.9666748046875,
+        140.5126190185547
+      ],
+      "encrypted_text": "43H6ba1tC0jNCTRqW2Wrt4TQm0uCVV4zI3E8mi1XnYQq6pIi/rDnlyCfhfTfdlZNXpqfOpStIj2R9ZFCiw3CnIGok3/69Poe3sc5jQE6EMEA+Pn89lUG9pP5UHKtfE/v",
+      "decrypted_text": "The natural circular frequency of the system;",
+      "original_text": "The natural circular frequency of the system;",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.60958862304688,
+        143.59683227539062,
+        139.6132049560547,
+        159.4728240966797
+      ],
+      "encrypted_text": "btLL2n3t6ZhYKxQg2+B8Xx0X2Ylt93m9+2Rlfh7gz/XXEmQf1qbR56GYRQO89pahu6Mj9LCq4kbg8Zo7uHI0zg==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93299865722656,
+        143.59683227539062,
+        297.676025390625,
+        159.4728240966797
+      ],
+      "encrypted_text": "0EyVZTj9S5ATHYANJwrh0CcSo1+wSlCtxoDBhljMzPMBxMwLMAJmlJOiJd5rw9n26skUAw6wqsCGFyUW7hGeP/8icpwruNXwmHrW41MBa3A=",
+      "decrypted_text": "The damping factor; and",
+      "original_text": "The damping factor; and",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.60958862304688,
+        162.67745971679688,
+        143.3385772705078,
+        178.55345153808594
+      ],
+      "encrypted_text": "HZN1ZXUUjFep8FaaLYCGxlu4YkUJc60Het49yeseASWxg8ljBo78qAWUDGLrinw4+XGdGpJw3PmRxthFVR22AA==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93019104003906,
+        162.67745971679688,
+        524.52392578125,
+        178.55345153808594
+      ],
+      "encrypted_text": "fJRNHxXF9qL9zlzWB0beR1zCEtN/pDmhsp5vvFQADwmyQAgjYVFUzzFisq7+TpSH8bYO0Yf9hQ61yPAuLvaoqxlSZPuMgxvk4ko0WHFV15AD60eaGJvTfmCk5xpv1h/4X8yu5gCpxy/eQbFujSuq3w==",
+      "decrypted_text": "The amplitude and phase angle when eccentric mass rotates at",
+      "original_text": "The amplitude and phase angle when eccentric mass rotates at",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93019104003906,
+        179.47744750976562,
+        220.3722381591797,
+        195.3534393310547
+      ],
+      "encrypted_text": "UVu4oxPOB8boVAHNX7XXiE8rCxmwSwua32/4kmI3QVqv3XmKojwYr700OO0QX+4WLTkOebPXwIvNUUFC/gJQQQ==",
+      "decrypted_text": "1440 r.p.m",
+      "original_text": "1440 r.p.m",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.85079193115234,
+        217.63723754882812,
+        93.28719329833984,
+        233.5132293701172
+      ],
+      "encrypted_text": "N7oRkEb3tALMv4Ls9eIuaha7B9HB2eA6phCawa5wUEDozfJ/Ad2K8YDmjbeqrjLITru1xFfl/tPPP/Uf/98Lyw==",
+      "decrypted_text": "Q3)",
+      "original_text": "Q3)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.28719329833984,
+        217.63723754882812,
+        109.61399841308594,
+        233.5132293701172
+      ],
+      "encrypted_text": "angx8aHVBWg0Liv2yEymEyn9zJsmHMdT5AfqD98KeSoqg2MiHkEej+w3gkYpCx1lomj8sVlz/fQ9GtX1QdqneQ==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61380004882812,
+        217.63723754882812,
+        524.4830322265625,
+        233.5132293701172
+      ],
+      "encrypted_text": "LsJNmgbe4MvVMN4mflAA4SnnHFfKqA0nsYhH2LorMNCOqC+Z9Y+hWcHVzvvjkRK48NIXdCBmf6fF0m0GENh4uI0SJRhQUSUOGz7CwRTzXesZe+BOXUrjnih5Vj3G1/AVaciWqebzmF41RgPXUzKC/E9GhGqnUrZGq8GUeaQZNQw=",
+      "decrypted_text": "Explain earth fixed coordinate system and vehicle coordinate system",
+      "original_text": "Explain earth fixed coordinate system and vehicle coordinate system",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61099243164062,
+        234.43722534179688,
+        234.06419372558594,
+        250.31321716308594
+      ],
+      "encrypted_text": "VniIe3aTZ1Bnhns33V03HkMx/6NiPE+t5i94Al+1OXQHaw1AsRJqVZCmK+oyh+oKy6wsYaGpOrIOOAcSXmO0AId7WCVvPNNFC6uVCpFUMUE=",
+      "decrypted_text": "with neat diagram.",
+      "original_text": "with neat diagram.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8916015625,
+        234.43722534179688,
+        524.3303833007812,
+        250.31321716308594
+      ],
+      "encrypted_text": "COs4uAq9iAZysGmNT4B7Ez7rxu5mB87OBSdbbpAA0oCDSiUjnpuVUDLptxsufPJiJpv5OVj95QY+cYK69hrHtg==",
+      "decrypted_text": "[9]",
+      "original_text": "[9]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17141723632812,
+        253.39743041992188,
+        111.17082214355469,
+        269.2734375
+      ],
+      "encrypted_text": "7CdzvRyNiuWumSMjmIS7GlrFCueFtJjDAK3UwnKXzxVYshv/D4dmlPOgZVxhV9lbtxbd3XkUT39N5rET8M0coQ==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61102294921875,
+        253.39743041992188,
+        180.06622314453125,
+        269.2734375
+      ],
+      "encrypted_text": "OR64hjKuWDGX1ttgpxDOQEYLP1uVGH7hULRg7VU1JZK7S45/kpOJwTi6Z4/C+PjW9dPYgtOXK6OJFqR/CUY6lA==",
+      "decrypted_text": "Explain :",
+      "original_text": "Explain :",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8916015625,
+        253.39743041992188,
+        524.3303833007812,
+        269.2734375
+      ],
+      "encrypted_text": "pTyK6IAW84Hs/9UbCsnCtEN7QvprE/yyxeF02ngosC0/arN9f8zLJYEz3cRttsIWD9vzJEkUDfQj2ZerFw93RQ==",
+      "decrypted_text": "[8]",
+      "original_text": "[8]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61099243164062,
+        272.4780578613281,
+        135.89340209960938,
+        288.35406494140625
+      ],
+      "encrypted_text": "Xu30YyO7ql0ovzTePQicFEeDcFPtzqVJB+ODMR6rcyDNlDdTYW/JrhLdU+xRN5EZycPoyvfhiSnMYIagB/0Qjw==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93301391601562,
+        272.4780578613281,
+        220.38905334472656,
+        288.35406494140625
+      ],
+      "encrypted_text": "YC1W2Wzg1Rya+egQpoZERMqcd5hg2gPzhPD7yjmylEKjH8nAT41W/SJKZty0M8S7TRf4nmPQ9/z86zk49CoEyg==",
+      "decrypted_text": "Gradability",
+      "original_text": "Gradability",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61099243164062,
+        291.5586853027344,
+        139.6145782470703,
+        307.4346923828125
+      ],
+      "encrypted_text": "/Wil4yIL+Elz6VxeDbP6vgO/f2jKjIZfiN0lwaKWM3oiVqEPYD/E32J2jB8NoSbEtkLUFoJG0qoOiHKII2MjMA==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93438720703125,
+        291.5586853027344,
+        231.6562042236328,
+        307.4346923828125
+      ],
+      "encrypted_text": "3YvUiEEYl9tuUh44FGK6MiRNm6b06vKFecaiMWFjOD0Ah0zMLQWUud/NgHEhVBg/tZ07tPMBmjs4brnaqnD2zA==",
+      "decrypted_text": "Drawbar pull",
+      "original_text": "Drawbar pull",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61099243164062,
+        310.6393127441406,
+        143.33998107910156,
+        326.51531982421875
+      ],
+      "encrypted_text": "KqkYG4+boJfFUc96MFdHUEP/UQETDblaJIvobRgvLTSPgKlMP+5oOx5Tt9YiKlqvwE/aw7dNTMbH87yvZv0Rrw==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9315948486328,
+        310.6393127441406,
+        257.2243347167969,
+        326.51531982421875
+      ],
+      "encrypted_text": "J0V9zqmDy5PblP+gqTfH+1q//RIG1AmAm9k6RtRBHL1QIlGFAAs5O10owcB6VsnRExcbC6WEHrxVSwvJB8RkoyAI3fx86NyywHnxP3+xmO4=",
+      "decrypted_text": "Rolling resistance",
+      "original_text": "Rolling resistance",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61099243164062,
+        329.5995178222656,
+        143.33302307128906,
+        345.47552490234375
+      ],
+      "encrypted_text": "bz8OZOeYupAqvOFYngXsip0nYHdxsC/TnZ0mYMok+EFBd2VnLAWV626wWBRn7ttgh28yUonNBMPQGb4nfRBZuw==",
+      "decrypted_text": "iv)",
+      "original_text": "iv)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93301391601562,
+        329.5995178222656,
+        236.95657348632812,
+        345.47552490234375
+      ],
+      "encrypted_text": "G/B89mEyFokQfUY6CccVQAXQtWlQBeOoZFonYVu+aN/kgw0eQHouB/aNzag77xH7lrY1nOCL/0VK7zlrWY6QJg==",
+      "decrypted_text": "Tractive effort",
+      "original_text": "Tractive effort",
+      "match": true
+    },
+    {
+      "bbox": [
+        287.57080078125,
+        348.68011474609375,
+        307.8484191894531,
+        364.5561218261719
+      ],
+      "encrypted_text": "LLCFEg2BGC5OH9SrkbJNNAAxw7WrlG/4/CLhUhjJauz4DaoV6WNKjIhOcUfykZSuVQHgTjXjEYaheQBxakO6Mw==",
+      "decrypted_text": "OR",
+      "original_text": "OR",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.85079956054688,
+        367.7607116699219,
+        93.28720092773438,
+        383.63671875
+      ],
+      "encrypted_text": "oGrQZ/lcLLlMPtz1XBEywLVoTjo1bEW4GJ39QdTIjse8qq9QUnz5Q21J1kO/tqkVZmbopFwFpQPZMS6ICwHUXQ==",
+      "decrypted_text": "Q4)",
+      "original_text": "Q4)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.28720092773438,
+        367.7607116699219,
+        109.61400604248047,
+        383.63671875
+      ],
+      "encrypted_text": "8sKcyyHKqAydECFl6b6mLSqxodpeYUOhKbBG6O5dT+8gUdZW+SE1GnLHDv6o/8uOSGDdE78UFR94Wz1rAfV7sg==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61380767822266,
+        367.7607116699219,
+        524.4774780273438,
+        383.63671875
+      ],
+      "encrypted_text": "H4gxe5pBM8TlOoPNlQalQkzFzNT4gEVAu+9txZwAS1hl/ET8gA/0wLJ2NnAmUNptx3VvmV1WwVSDF069dDVLSIzSvctcsFDkFlto1+QzsujiHSssrCM7cey1cpWRuJreZ1nqq5+TFwAHT994laMwOEFnGY63/KaHf0lLFpptaVQ=",
+      "decrypted_text": "Derive the equation for normal reactions acting on axles of a vehicle,",
+      "original_text": "Derive the equation for normal reactions acting on axles of a vehicle,",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61100006103516,
+        384.5606994628906,
+        373.6342468261719,
+        400.43670654296875
+      ],
+      "encrypted_text": "PFJJlhIBWLtD3ItNilfIxauDPznLsL3Qu+GfYV6V6K5sMvN7+CWAJqSh7MoFK6mY/TvAXbXOTzWdmewhxmzfQfSgDvlVGOs4xtTzrlyAi6Budd/BhVA5+GPkSYjXFUKc",
+      "decrypted_text": "when vehicle is on a slope and in rest state.",
+      "original_text": "when vehicle is on a slope and in rest state.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8916015625,
+        384.5606994628906,
+        524.3303833007812,
+        400.43670654296875
+      ],
+      "encrypted_text": "1goqFlWBMldyVASlPqsWwzDmvDdLVBcxaB94ZsoWyTlaW4v1MTh/SvhlNsU2lzQIE+/Z5mcr42VnnkUkokZ/hQ==",
+      "decrypted_text": "[7]",
+      "original_text": "[7]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17141723632812,
+        403.64129638671875,
+        111.17082214355469,
+        419.5173034667969
+      ],
+      "encrypted_text": "2ABS0KwMWjfHOvBbeQm92TIIEMVo/5BGGebBrQB9ANXqoP0VG0stBXstLKtyGYNvVYcVAsdgqE5keD0Q+OiNrw==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61102294921875,
+        403.64129638671875,
+        524.522216796875,
+        419.5173034667969
+      ],
+      "encrypted_text": "65PEkW6EZx3cfbWfhzJ+W/FcAjYh6HTjEIIE98AqBAxpsDPW5213k5xS26sdz8znueh9lXmUEX4J6cQpjDcyQbE04NkXtcBQt2RJyIAAcz/aUL1Lpj32C6aqVi5pCO8uVT0xgvuCMIdetQTF7k+bcdJOkreNNvWK0TBdrYIcYbE=",
+      "decrypted_text": "Explain the different cases of dynamic axle loading with neat diagram",
+      "original_text": "Explain the different cases of dynamic axle loading with neat diagram",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61101531982422,
+        420.4412841796875,
+        289.6246643066406,
+        436.3172912597656
+      ],
+      "encrypted_text": "dLCOIeGQ/w6jiTL2auJcI/PmWmxUQskRoT76440//L6348QFshvBm+kaZCvjLfjsunTB417bhyTlGjaLc2inxw9hRU1S9hmpgHmRXJ3NZWM=",
+      "decrypted_text": "and mathematical equations.",
+      "original_text": "and mathematical equations.",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.45062255859375,
+        420.4412841796875,
+        524.4508056640625,
+        436.3172912597656
+      ],
+      "encrypted_text": "61Qxn9jD15smV+j4VBTWBTKGYt8P/iCuZku5w8gJ8QtULI4hplYWtQ4xV3yrkTa25LArmB79Dekalzp7sqWZJQ==",
+      "decrypted_text": "[10]",
+      "original_text": "[10]",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.850830078125,
+        458.4806823730469,
+        93.2872314453125,
+        474.356689453125
+      ],
+      "encrypted_text": "HCXF0+xGM9QRE4TRDQ/DNetXlS6vnwr3pPrhx8YfzP59SWeoFpnTmpvb0yKfsu27ZmTb3fdkr8P5O+FXgkIpKQ==",
+      "decrypted_text": "Q5)",
+      "original_text": "Q5)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.2872314453125,
+        458.4806823730469,
+        109.6140365600586,
+        474.356689453125
+      ],
+      "encrypted_text": "T52CgRXjXCCq/wuoWhAS69bGSaN94xc7YoCwZOTYwYJr6D8SWfaM89CMfKLnouMgvzesJNE82UQhNTptk/uTNA==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61383056640625,
+        458.4806823730469,
+        524.478759765625,
+        474.356689453125
+      ],
+      "encrypted_text": "3QSS6WtDrP2H+6oMNVCDdYT1dBMHhcJ2ckL+Zh2eO5GoCE3Kfw1YeG7kaOO03tGF5qQ+KNa1E0EVOQ6JOxGWIVYkDDfWP3xY9vdDGe+bjwhMsviHILramgJi7KvBuyzxzickOtUEh980TVITUP4GScNgdgrpicYuUVOvHoRHK6s=",
+      "decrypted_text": "Explain automatic transmission with respect to torque versus speed",
+      "original_text": "Explain automatic transmission with respect to torque versus speed",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61103057861328,
+        475.2806701660156,
+        156.8990478515625,
+        491.15667724609375
+      ],
+      "encrypted_text": "l+v7qkSs87xXmslkQDJHksxKZ9fAWdWZcbP/yIZ2dO/kmKhObzwuDAM617IsgZDUNaB3B0gx0wDdqUyZd/10wA==",
+      "decrypted_text": "ratio.",
+      "original_text": "ratio.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8916320800781,
+        475.2806701660156,
+        524.3303833007812,
+        491.15667724609375
+      ],
+      "encrypted_text": "PfnBlClzqjsDiYidaRusnBY3v2mklk/ls8kOoEw+1ZUECVaf5pOA8AExQoF00vUsXhWCPMlNkG4JMrwPJ8VWdA==",
+      "decrypted_text": "[7]",
+      "original_text": "[7]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17144775390625,
+        494.36126708984375,
+        111.17084503173828,
+        510.2372741699219
+      ],
+      "encrypted_text": "nbxG7fwHO/xLO5BWOexqFPnBBxxeTyJZ61AWgXugrch+LniOI6JeP6x3OPjhXrx5mWF8Hk7DIm5NmFvtx5kLlA==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61104583740234,
+        494.36126708984375,
+        372.097412109375,
+        510.2372741699219
+      ],
+      "encrypted_text": "U6T/+BjkewBS4r7ivyktFOGKjCFVQOdIMzFi+iP4Z54cBujQjXk53ppfVRVI6YB/Z94GdGgJtHMu5XhjksKpp3ZCMnFT7klX2d9g3BwoN/XZneFI3LZmEDivPIgb0qHU",
+      "decrypted_text": "Explain engine power limited acceleration.",
+      "original_text": "Explain engine power limited acceleration.",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.4520568847656,
+        494.36126708984375,
+        524.4522094726562,
+        510.2372741699219
+      ],
+      "encrypted_text": "Z9BSh4k1O0+f7DZHus9WxAdkRVLrQA6NM14lz9Gfgwr+IhZjd6HDHUaRJaKNLQBJdBDl894v/aqOdc1JrKt+xw==",
+      "decrypted_text": "[10]",
+      "original_text": "[10]",
+      "match": true
+    },
+    {
+      "bbox": [
+        287.572265625,
+        513.4418334960938,
+        307.8498840332031,
+        529.31787109375
+      ],
+      "encrypted_text": "vYcM9MFDRdazdg9AMF0vDXwEGfXvzS4CaQjX99hDLEAbJqXt2u97iJy9l5xU67beYP5dThZqx4to8S7sqKl9nA==",
+      "decrypted_text": "OR",
+      "original_text": "OR",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.85226440429688,
+        532.4020385742188,
+        93.28866577148438,
+        548.278076171875
+      ],
+      "encrypted_text": "bT9WCsAzXyiHu3M5TGKF+unR5EPGLGhAQQbOuzWaKJlmoxYGAGYvMg69FOJ9Oq1nDPdT5TwLoqG9rj4dcvYfwA==",
+      "decrypted_text": "Q6)",
+      "original_text": "Q6)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.28866577148438,
+        532.4020385742188,
+        109.61547088623047,
+        548.278076171875
+      ],
+      "encrypted_text": "rbTbyK81RcMBgB3z/E5B+OVNi7/1m2giZ6H5VLz/Kh5MXm+PqyV/U1qC7JnJPxZ0l1qi1RcZ4fy70O1mVqoWOg==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61527252197266,
+        532.4020385742188,
+        524.5164794921875,
+        548.278076171875
+      ],
+      "encrypted_text": "bYN0Qc8yXFXUisBSgWIVllCuH1lKSHMHtHHdfIO+yOOidd35fPXdJk7vMvCr6Qs2sJJ3KrBmqRBYpZJCdzyfGswgrpRDJL3RtsOCbms7376RLn3FCQFJaq8Ui9fYvHhsZxzIWGE0aIg+ChcOfSf0NXvEoF463jnkfRLzlH4cg0M=",
+      "decrypted_text": "A car weighing 2000 kg travelling at a speed of 40 km/hr. The driver",
+      "original_text": "A car weighing 2000 kg travelling at a speed of 40 km/hr. The driver",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61246490478516,
+        549.2020263671875,
+        524.4500122070312,
+        565.0780639648438
+      ],
+      "encrypted_text": "fNmO/pRUOi2ydUyFB0inCucr8USmERF+6dIM8tVjaTt+u0LTU1BMCthbZdHeZZckKbVk0xU0gLI1dRTPmsTeHemSOp0M+/igbyrQ8oLY4CI+cycmx36KjwY017HHXw9JE/i3g7Zv7ii7Mew/J/cSYfs7dEZx2m+6OXa+TI2dq3E=",
+      "decrypted_text": "puts on the brakes with a steady brake force or 9000 N, when he sees a",
+      "original_text": "puts on the brakes with a steady brake force or 9000 N, when he sees a",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61246490478516,
+        566.0020141601562,
+        278.33929443359375,
+        581.8780517578125
+      ],
+      "encrypted_text": "G6/jCkNxZa19/QhugBGaPQwe0DP0yIrOwaXeOmr5C62VnHFKHQITWQ4OiJEJLMgq3o7tJQdpMWaf4JqqslXD+QJjbsRIU8ZTC2cYLSAvq1Y=",
+      "decrypted_text": "stop sign. Determine, the :",
+      "original_text": "stop sign. Determine, the :",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.4520568847656,
+        566.0020141601562,
+        524.4522094726562,
+        581.8780517578125
+      ],
+      "encrypted_text": "NNjaoWC+g5t0gvJMuaP/NWH+u7tgywZ3BhFnmiF8ycfDMgujHPhj1WaV2mQkxPDRYa/QDZ3yAb2eL4cqpeR4vA==",
+      "decrypted_text": "[12]",
+      "original_text": "[12]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        585.0826416015625,
+        135.8948516845703,
+        600.9586791992188
+      ],
+      "encrypted_text": "QdOd+kgjFnVRkUL/38bthiNgt+VR5MryXP62EJl4eEiYhwJ24Zrkcx7w65PSBw9JuYXuKCoCgtWmJJJY37W1eg==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9344482421875,
+        585.0826416015625,
+        287.9614562988281,
+        600.9586791992188
+      ],
+      "encrypted_text": "8EwpuHVaXrZ/pWHOwmenSgHPNLOaVHuUrbp2N9UVQADgdBDQVKnng5G7m8EvIGjvN6XCzylx71nSs+0MH9EGi7T4/taGkfYlpukxhzSjbm8=",
+      "decrypted_text": "Deceleration of the car.",
+      "original_text": "Deceleration of the car.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        604.1632080078125,
+        139.6160430908203,
+        620.0392456054688
+      ],
+      "encrypted_text": "E+ttFI80zb+HGwtqQn2tkId1nKRCUsmVvMkOK4EbX5qeJfQMLDXFmGZaGbdvkX7+Yklr0pIz8K4/IQCemNuZEw==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93585205078125,
+        604.1632080078125,
+        319.39141845703125,
+        620.0392456054688
+      ],
+      "encrypted_text": "JMwe0bM5nilhumMjjBrVIOcTVvq3uJRmmEDkdS7YDX77zvzVg8WCShu2eytnFRfPsv4GW4k5iKkj3caBu4cYCUu/W3hdKaT77uUH2Rn6j4A=",
+      "decrypted_text": "Stopping distance of the car.",
+      "original_text": "Stopping distance of the car.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        623.2437744140625,
+        143.34144592285156,
+        639.1198120117188
+      ],
+      "encrypted_text": "9YrjssKX6uAfDEC11S4QIJmfqOmtOez0cvmLVSjJFtUjlp7KQfv1IEpiitLlzzivSjgkRNy1yHpq2ZJCncqYag==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9330596923828,
+        623.2437744140625,
+        273.6758117675781,
+        639.1198120117188
+      ],
+      "encrypted_text": "03cU00wQB8USLwPBJKVFfcD7NS6Kde3VM9a4g5K/VUaPCHx9wwIBrIX+6fKmgNdBj3lK6b7cierLBUc2qdAxraNByHNOxcDRdQE7uhNmc7Q=",
+      "decrypted_text": "Time to stop the car.",
+      "original_text": "Time to stop the car.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        642.2039794921875,
+        143.2224578857422,
+        658.0800170898438
+      ],
+      "encrypted_text": "rQvfhNgONznxYoySU3vNs8VIPEpQx9Q+0gRaID+lYHD22wBoMDS4XAOaJww+trQ80L4kBM223aEzfhPb/bGnRA==",
+      "decrypted_text": "iv)",
+      "original_text": "iv)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.8224639892578,
+        642.2039794921875,
+        351.70770263671875,
+        658.0800170898438
+      ],
+      "encrypted_text": "mxSWQDCDttcGhsCVmnjyJnVLsyt+iW4qb9kdDVnAIZfTsK9RbpgF4SlUpRh7u+Z2ts3GR/GKk4FSe9y5qSwjGixW6E5ofYZIkjEyQFEQKHiHsbL2GoJjSt23avIDt44R",
+      "decrypted_text": "Energy dissipated during braking.",
+      "original_text": "Energy dissipated during braking.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        661.2846069335938,
+        139.61184692382812,
+        677.16064453125
+      ],
+      "encrypted_text": "d3kjlL8G1LVsHhsHCcNyG6g6xBAhJeyD71iF5Z2veElLpTrq7BYyP/j5reL/uDCvFoya+YCNw26nCj1aVBFvxQ==",
+      "decrypted_text": "v)",
+      "original_text": "v)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.931640625,
+        661.2846069335938,
+        458.2613830566406,
+        677.16064453125
+      ],
+      "encrypted_text": "ahpJuhz++vTdoGhzpBR2llCBEjVihoCUUTJobCPH9VknUmj3WQ3aVfYx54ChM4crU9iMiMBs3s5N5Xq4u4gjSMMPdpDziYd7p1T7EF3DahW6pTtxk5+POAWYW/WIUL26Wm7V4+eu8bu2Is+xrqoqZg==",
+      "decrypted_text": "Brake power dissipated at point of brake application.",
+      "original_text": "Brake power dissipated at point of brake application.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        680.365234375,
+        143.33445739746094,
+        696.2412719726562
+      ],
+      "encrypted_text": "IeZuFr/xa587OcXCVsdOsKBUcYyRGmIAWesS6ko33cQEX2J09USo77JiSRDLt7v4R+zcu3G8p1gsGFkmwcRvwQ==",
+      "decrypted_text": "vi)",
+      "original_text": "vi)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93446350097656,
+        680.365234375,
+        402.6956787109375,
+        696.2412719726562
+      ],
+      "encrypted_text": "Am1gT6Y4WFLwLrgFS5RZEQXoOHFVrmhhCG0Dq1bIAcq8WLa/ilCPkxIvX3proryaLzFFkUpkFAUbYcvaJk82uMvQ5m6/ebL/KDYDCVUZjcvn5CqH+rjcF00WIdUh1Po+",
+      "decrypted_text": "Brake power dissipated average at the stop.",
+      "original_text": "Brake power dissipated average at the stop.",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        699.44580078125,
+        465.8804016113281,
+        715.3218383789062
+      ],
+      "encrypted_text": "sYivvqNJVQ+p6bYn12UKK5zExKPHEqbw7plPZ/+w0++DAHyjxV5DVIVOAKoD1bjyeEQVIiDG2xMGguY54hCphBEhdqam5d9wn+hDlZns+nocCubShdxZU8skBOfthZUfLFN1f7kNVbFRXNLthBUJ9g==",
+      "decrypted_text": "Neglect, aerodynamic, rolling and drawbar pull resistances.",
+      "original_text": "Neglect, aerodynamic, rolling and drawbar pull resistances.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17285919189453,
+        718.406005859375,
+        111.1722640991211,
+        734.2820434570312
+      ],
+      "encrypted_text": "xj7SlHq1/pQCXWhPQLZBE9eLvsswy8ADbZDxHA4VUjuVeG7drl0kJ+Dlcjaj/XIsvkeoJDigpmEkmhYzFACW7Q==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61246490478516,
+        718.406005859375,
+        524.4862060546875,
+        734.2820434570312
+      ],
+      "encrypted_text": "qReJekCzzD6bEHRysEOcbJQV2N6ULQzFB+2QBXFXJvo8O10MK7HQxiF6V/cj2QMwF1nePYzsYJKfRjK1p5UEnA+EFdHP5biV4Ku2D+7ivp7rpmFeWrfljMKufAPo/QdRPhe4j7at++tmqRjaf6yvJsaai7POPO/YVx6Zh7AJmYc=",
+      "decrypted_text": "Derive the generalized equation for braking performance of a vehicle",
+      "original_text": "Derive the generalized equation for braking performance of a vehicle",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61245727539062,
+        735.2059936523438,
+        180.0508575439453,
+        751.08203125
+      ],
+      "encrypted_text": "0Y4UFjBrCltwKYeWfZD6ArRx+1z3iJ8/hU0Fy6ENwtzCKPAmgNDMnqotDEhBgKRzzAqYLD3uIUWjlEAQKFS9iQ==",
+      "decrypted_text": "on slope.",
+      "original_text": "on slope.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.89306640625,
+        735.2059936523438,
+        524.3318481445312,
+        751.08203125
+      ],
+      "encrypted_text": "eAW9trudOJ4duObxTwVFu4qngLwP2LlTuLjIhq7jmd+EX1oiF0WZW+urDE+mU0Px18HOUEMygiS0i+X9vgWpPQ==",
+      "decrypted_text": "[5]",
+      "original_text": "[5]",
+      "match": true
+    }
+  ],
+  [
+    {
+      "bbox": [
+        70.8499984741211,
+        764.3615112304688,
+        124.84729766845703,
+        779.3060302734375
+      ],
+      "encrypted_text": "Q6HtA5RZSnkSqA8sg0CV6JwXGykCWuDbpnKybP5WtHYIX0GdtIOOjbxMlywbv5lWLfg25bIK7LC11mlyqsgE5A==",
+      "decrypted_text": "[6181]-12",
+      "original_text": "[6181]-12",
+      "match": true
+    },
+    {
+      "bbox": [
+        294.1669921875,
+        764.3615112304688,
+        300.9169921875,
+        779.3060302734375
+      ],
+      "encrypted_text": "lnep2UIxyQLZQiqi9fNIbDABYr+C3Xu6uLcSwGnmfCK2jG/4oOFmC/z/j9I1GshpNVlAlH2VKE4B6LbYp9dZQQ==",
+      "decrypted_text": "3",
+      "original_text": "3",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.8499984741211,
+        55.156036376953125,
+        93.2863998413086,
+        71.03203582763672
+      ],
+      "encrypted_text": "ESw38kkT3La2JX97tUCjHgm+4vyOrT6JgZWzLEVKEZRNXsEfZZ7epXv10NUHlKJGuoVX9psDkqnZkdZ8WRRuaw==",
+      "decrypted_text": "Q7)",
+      "original_text": "Q7)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.2863998413086,
+        55.156036376953125,
+        109.61320495605469,
+        71.03203582763672
+      ],
+      "encrypted_text": "kTrOC4s9bMFcKxlu4/loLJFFUM47tKu0lU4G9ZfxTaeVmCtGmf6+pRlTh0aVx86Ppe5lQOnNFyG6Vmy8id/9jA==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61300659179688,
+        55.156036376953125,
+        365.39453125,
+        71.03203582763672
+      ],
+      "encrypted_text": "iRZiLKR93XC4mTQ0YeFB9Vh8vIiEM+KoTeeV1jNGx9cA1WNEBfuxANHNApj0JeL4otx9BcMxyzbRe4Ohvnb5J/TfENxRt95wPpWVek6cAc6Vqq9CV0MPHRVw4YJNhH0z",
+      "decrypted_text": "Explain mathematical model of handling.",
+      "original_text": "Explain mathematical model of handling.",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8907775878906,
+        55.156036376953125,
+        524.3295288085938,
+        71.03203582763672
+      ],
+      "encrypted_text": "Bp47mFdNAvcdRlg1gyH0vHBdZvsMJChhOh+vWAA7lQh89AZxWCkEnVotP+VR5DifPIXODbmxZ6bcrUo1Gl6tEQ==",
+      "decrypted_text": "[9]",
+      "original_text": "[9]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17059326171875,
+        83.35623168945312,
+        111.16999816894531,
+        99.23223114013672
+      ],
+      "encrypted_text": "UP7h31zKu1tpWT0bNxIOWdZ76sUZMqeZJeZiosPtC/zHIZtveGytl1Hcpf6+RYeFylTyrCDQG0T2vKZ8B5n5KQ==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61019897460938,
+        83.35623168945312,
+        180.06539916992188,
+        99.23223114013672
+      ],
+      "encrypted_text": "pLqvtd0ffXJxZAzv0OqZmmCRj/fWrL2yTXyH+6YCfTKIykfr/Z/K4Jpjxr/bXY+U4AL19w0shRnM3yf1ttvdCQ==",
+      "decrypted_text": "Explain :",
+      "original_text": "Explain :",
+      "match": true
+    },
+    {
+      "bbox": [
+        507.8907775878906,
+        83.35623168945312,
+        524.3295288085938,
+        99.23223114013672
+      ],
+      "encrypted_text": "OWj1oSf9xhUAMMCtswvxxQPYtgh5DUcV3xo3r464RROpH1/5gkEVs0lt2cKQRbffLX1tWGTEEAxaNlc6xgIXww==",
+      "decrypted_text": "[9]",
+      "original_text": "[9]",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61016845703125,
+        111.43600463867188,
+        135.89256286621094,
+        127.31200408935547
+      ],
+      "encrypted_text": "qpzXxsuX9jwp0s6EkQyChHyzz+J80D0Xl6T3WFw7e87awSjkKaRFTVMLk+yYZQGYEIm/y61bE2Ul3FQKEbaiDw==",
+      "decrypted_text": "i)",
+      "original_text": "i)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93215942382812,
+        111.43600463867188,
+        232.38616943359375,
+        127.31200408935547
+      ],
+      "encrypted_text": "FFzvlN5Ka4TA5hBDyz6kryTBiCvZ0GQzLGI7faHJ4ZMD0ZhbJjNIihXGwQ5/9KKTtreXhoddzh24jvoyu0fg4A==",
+      "decrypted_text": "Yaw velocity",
+      "original_text": "Yaw velocity",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61016845703125,
+        139.63619995117188,
+        139.61375427246094,
+        155.51219177246094
+      ],
+      "encrypted_text": "/mUphbkAj74hmy4WdY74nEPbZnf1+zcUYlNyPjbjMJ9Wj2XCUMCPAb/kFrFCjiegFcnJ4u+9gNst2IdMmJZd/w==",
+      "decrypted_text": "ii)",
+      "original_text": "ii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.9335479736328,
+        139.63619995117188,
+        227.21871948242188,
+        155.51219177246094
+      ],
+      "encrypted_text": "T5+glYc+3k6n85XJ2pR8DLozXIrYktbSlciZJwRtortvkfmueSDhqBfto/kTd7aZtdgo2JNIxivVQ42aGMU2Xw==",
+      "decrypted_text": "Neutral steer",
+      "original_text": "Neutral steer",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61016845703125,
+        167.71597290039062,
+        143.3391571044922,
+        183.5919647216797
+      ],
+      "encrypted_text": "jpur+yGwI4azYaTSlFlYxClz/lfEuTLLJ2vkIA/v9Vy7HStcVkxRfEbxbBJ2/YPfnynhWvKTMdOUfzI0SfQC/g==",
+      "decrypted_text": "iii)",
+      "original_text": "iii)",
+      "match": true
+    },
+    {
+      "bbox": [
+        155.93077087402344,
+        167.71597290039062,
+        265.38836669921875,
+        183.5919647216797
+      ],
+      "encrypted_text": "Mc1jLrrkO9e2XELMAi1T+bZBdNSxsAFfT/gj9sj5RLCj43oMh5G5EPW+gVZCi+PWOoYzOdz34vxROc2AkdBSy1ZIjlkmAhX3vVCAE+q3uJc=",
+      "decrypted_text": "Constant speed test",
+      "original_text": "Constant speed test",
+      "match": true
+    },
+    {
+      "bbox": [
+        287.57135009765625,
+        195.91616821289062,
+        307.8489685058594,
+        211.7921600341797
+      ],
+      "encrypted_text": "jDFk3ZeRqHejSkopOyTzKVqupDlv1YW/+79SL/YQtikPpacIQcl/e7Og1a3Fwg5qPVPPEawxGvPDz7IvmWq3VA==",
+      "decrypted_text": "OR",
+      "original_text": "OR",
+      "match": true
+    },
+    {
+      "bbox": [
+        70.85134887695312,
+        223.99594116210938,
+        93.28775024414062,
+        239.87193298339844
+      ],
+      "encrypted_text": "O8ZnPvIBjcphZZBTe25HnHcx481+CCqbAg1BQkGOldQs6/JAl6g9p3HWBIyV6fd5aiSEHgo82/XmWo62PZ5q2A==",
+      "decrypted_text": "Q8)",
+      "original_text": "Q8)",
+      "match": true
+    },
+    {
+      "bbox": [
+        93.28775024414062,
+        223.99594116210938,
+        217.63717651367188,
+        239.87193298339844
+      ],
+      "encrypted_text": "WJTSRpMDQVXXXwnQZ8ulXeo/34jVkDW5rlqHbnM7j8U0AWKCFgBz8R9GfboO+uhpVZEH9gRdb7HBs4khabWBKwnLAWB4Xzog+Cp5Zi8xVWo=",
+      "decrypted_text": "Write short note on :",
+      "original_text": "Write short note on :",
+      "match": true
+    },
+    {
+      "bbox": [
+        500.45257568359375,
+        223.99594116210938,
+        524.4527587890625,
+        239.87193298339844
+      ],
+      "encrypted_text": "z8H7DWLb8nQrsRVt/+x4pwXZKlq9u4b0Qu8MtlUuB19atGliXRoqFQKST814IC+pqBX6u7KygC6ACdr+u32JoA==",
+      "decrypted_text": "[18]",
+      "original_text": "[18]",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17196655273438,
+        252.19613647460938,
+        109.61457061767578,
+        268.0721435546875
+      ],
+      "encrypted_text": "lfqx7b+ZAAAQRhYTrJ5j2rA1Ie/MgNwxzec1/rlLNWmYQUdwPZXPnRK6MCIvnJQEBBg+EArMyVyW3hfDbP7x5A==",
+      "decrypted_text": "a)",
+      "original_text": "a)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61436462402344,
+        252.19613647460938,
+        303.9136047363281,
+        268.0721435546875
+      ],
+      "encrypted_text": "XUXTdn6R2kaq6r5ZKeVdd92L4PJnIADnO+cm1IQnpmPAIbG1GuESw5Vn60tKy1w3JZNDNm87z3DZ3AqCgw8h5GKhSAPRAMX5klsr1zxWxk4=",
+      "decrypted_text": "Semi-active suspension system",
+      "original_text": "Semi-active suspension system",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17196655273438,
+        280.3963317871094,
+        111.17277526855469,
+        296.2723388671875
+      ],
+      "encrypted_text": "56rs7eU/d776U7jIZGI06GdTuX/kCDa9K3bOhAqkylvauX/K+I/0SN/GdNKUz4rKr47E6qYFNH3VUJ3X2R0pzQ==",
+      "decrypted_text": "b)",
+      "original_text": "b)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61437225341797,
+        280.3963317871094,
+        278.37481689453125,
+        296.2723388671875
+      ],
+      "encrypted_text": "M47zGG01dUHIevSeAjGifx9Yn62g5sDpTvW69iaLtBFwo+E7f+tHpKbB6ML3n1M6fGM3H988PbWR28E9QAchCSJ14+k/KxqrqljxKZe7j38=",
+      "decrypted_text": "Active suspension system.",
+      "original_text": "Active suspension system.",
+      "match": true
+    },
+    {
+      "bbox": [
+        99.17196655273438,
+        308.4761047363281,
+        109.61457061767578,
+        324.35211181640625
+      ],
+      "encrypted_text": "6bcVjUcHtHvLFZ3pJMTMZRZNd9HNNPBBv/3jWSjk0O1uMbfZGEufNEyjEcg5PRGqJL0iKQD0NqGWiHaXZuOdww==",
+      "decrypted_text": "c)",
+      "original_text": "c)",
+      "match": true
+    },
+    {
+      "bbox": [
+        127.61436462402344,
+        308.4761047363281,
+        369.0655212402344,
+        324.35211181640625
+      ],
+      "encrypted_text": "wZPWVMIb3ibhW476B1dv5uPqtmG7rIcglTeyzQ9d8L1SlMUMAbxWMeYwf5YNTDnHOpNotA9WwIuTvMtWa4N4hiD4MzmWuhmEw5Fq3XYbCKv3Go0jpqnl36oXtp8k2UY1",
+      "decrypted_text": "Excitation sources For vehicle ride model.",
+      "original_text": "Excitation sources For vehicle ride model.",
+      "match": true
+    },
+    {
+      "bbox": [
+        273.2900085449219,
+        364.52801513671875,
+        322.002197265625,
+        385.58001708984375
+      ],
+      "encrypted_text": "JX8QSl9wt+OrmZVXjYBA9X7RuUL2SsxCxUxEZKsfXma6gFQ+KxQKbsndVMkrSrZg/KabY+RPSf+a2E9ubkz9HA==",
+      "decrypted_text": "\uf070\uf070\uf070",
+      "original_text": "\uf070\uf070\uf070",
+      "match": true
+    }
+  ]
+]

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distribute Papers</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --hacker-green: #0f0;
+        --terminal-bg: rgba(0, 20, 0, 0.8);
+      }
+
+      body {
+        font-family: "Share Tech Mono", monospace;
+        margin: 0;
+        background-color: #000;
+        display: flex;
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+
+      #matrixCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.15;
+      }
+
+      .crt-effect {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        background: linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      .crt-effect::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(
+          circle at center,
+          transparent 70%,
+          rgba(0, 0, 0, 0.8)
+        );
+      }
+
+      .container {
+        display: flex;
+        width: 100%;
+      }
+
+      .sidebar {
+        width: 250px;
+        background-color: var(--terminal-bg);
+        color: var(--hacker-green);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid var(--hacker-green);
+        box-shadow: 2px 0 5px var(--hacker-green);
+      }
+
+      .sidebar h2 {
+        margin: 0;
+        font-size: 1.5em;
+        text-align: center;
+        text-shadow: 0 0 5px var(--hacker-green);
+        text-transform: uppercase;
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+
+      .sidebar ul li {
+        margin: 15px 0;
+      }
+
+      .sidebar ul li a {
+        color: var(--hacker-green);
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+        padding: 10px;
+        border-radius: 6px;
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      .sidebar ul li a:hover {
+        background-color: rgba(0, 50, 0, 0.7);
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      .sidebar ul li a.active {
+        background-color: rgba(0, 50, 0, 0.7);
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      .logout-btn {
+        background-color: rgba(220, 38, 38, 0.7);
+        color: var(--hacker-green);
+        padding: 12px;
+        border: 1px solid var(--hacker-green);
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        box-shadow: 0 0 5px var(--hacker-green);
+      }
+
+      .logout-btn:hover {
+        background-color: rgba(185, 28, 28, 0.7);
+        box-shadow: 0 0 15px var(--hacker-green);
+      }
+
+      .content {
+        flex-grow: 1;
+        padding: 20px;
+      }
+
+      h1 {
+        color: var(--hacker-green);
+        text-shadow: 0 0 10px var(--hacker-green);
+        text-transform: uppercase;
+      }
+
+      .card {
+        background-color: var(--terminal-bg);
+        border: 1px solid var(--hacker-green);
+        border-radius: 12px;
+        box-shadow: 0 0 20px var(--hacker-green);
+        padding: 30px;
+        max-width: 850px;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        box-sizing: border-box;
+        color: var(--hacker-green);
+      }
+
+      label {
+        font-weight: 600;
+        display: block;
+        margin-top: 15px;
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid var(--hacker-green);
+        border-radius: 6px;
+        background-color: rgba(0, 20, 0, 0.5);
+        color: var(--hacker-green);
+        font-size: 14px;
+        font-family: "Share Tech Mono", monospace;
+        box-shadow: 0 0 5px var(--hacker-green);
+      }
+
+      select:focus {
+        outline: none;
+        border-color: var(--hacker-green);
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid var(--hacker-green);
+      }
+
+      th {
+        background-color: rgba(0, 50, 0, 0.7);
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      td input[type="checkbox"] {
+        margin: 0;
+        vertical-align: middle;
+      }
+
+      button {
+        background-color: rgba(0, 50, 0, 0.7);
+        color: var(--hacker-green);
+        padding: 12px 30px;
+        border: 1px solid var(--hacker-green);
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+        text-transform: uppercase;
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      button:hover {
+        background-color: var(--hacker-green);
+        color: #000;
+        box-shadow: 0 0 15px var(--hacker-green);
+      }
+
+      .message {
+        margin-top: 15px;
+        font-weight: 600;
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      .message.success {
+        color: #00ff00;
+      }
+
+      .message.error {
+        color: #ff0000;
+      }
+
+      .message.warning {
+        color: #ffa500;
+      }
+
+      .message.info {
+        color: #0000ff;
+      }
+
+      .status-detail {
+        margin-top: 5px;
+        font-size: 0.9em;
+        text-shadow: 0 0 2px var(--hacker-green);
+      }
+
+      .status-detail i {
+        margin-right: 5px;
+      }
+
+      #pdfViewLink {
+        color: var(--hacker-green);
+        text-decoration: underline;
+        text-shadow: 0 0 3px var(--hacker-green);
+      }
+
+      #pdfViewContainer {
+        margin-top: 10px;
+      }
+
+      .distribution-notes {
+        margin-top: 20px;
+        padding: 15px;
+        background: rgba(0, 20, 0, 0.7);
+        border: 1px solid var(--hacker-green);
+        border-radius: 6px;
+        color: var(--hacker-green);
+      }
+
+      .distribution-notes h4 {
+        margin: 0 0 10px 0;
+        text-shadow: 0 0 5px var(--hacker-green);
+      }
+
+      .distribution-notes ul {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 0.9em;
+      }
+
+      .hex-data {
+        color: rgba(0, 255, 0, 0.7);
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.5;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+        .sidebar {
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+        }
+        .sidebar h2 {
+          font-size: 1.2em;
+        }
+        .sidebar ul {
+          display: flex;
+          margin: 0;
+        }
+        .sidebar ul li {
+          margin: 0 10px;
+        }
+        .logout-btn {
+          padding: 8px 20px;
+        }
+        .card {
+          padding: 20px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .sidebar ul {
+          flex-direction: column;
+          align-items: center;
+        }
+        .sidebar ul li {
+          margin: 5px 0;
+        }
+        .logout-btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="matrixCanvas"></canvas>
+    <div class="crt-effect"></div>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <h2>Dashboard</h2>
+          <ul>
+            <li><a href="{% url 'university_dashboard' %}">Home</a></li>
+            <li>
+              <a href="{% url 'college_list' %}" class="active">Distribute</a>
+            </li>
+            <li><a href="{% url 'uploaded_papers' %}">Upload PDF</a></li>
+            <li><a href="{% url 'view_key_requests' %}">Key Requests</a></li>
+          </ul>
+        </div>
+        <a href="{% url 'log_out' %}" class="logout-btn">Logout</a>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <h1>Distribute Encrypted Papers</h1>
+
+          <div class="distribution-status">
+            {% if messages %} {% for message in messages %}
+            <div class="message {{ message.tags|default:'info' }}">
+              {{ message }} {% if 'success' in message.tags %}
+              <div class="status-detail">
+                <i class="fas fa-check-circle"></i> Encrypted PDFs successfully
+                sent to selected colleges.
+              </div>
+              {% elif 'error' in message.tags %}
+              <div class="status-detail">
+                <i class="fas fa-times-circle"></i> Some distributions failed.
+                Check college emails.
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %} {% endif %}
+          </div>
+
+          <form method="POST">
+            {% csrf_token %}
+
+            <div
+              style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px"
+            >
+              <div>
+                <h3
+                  style="
+                    margin-bottom: 15px;
+                    text-shadow: 0 0 5px var(--hacker-green);
+                    text-transform: uppercase;
+                  "
+                >
+                  <i class="fas fa-university"></i> Select Colleges
+                </h3>
+                <div style="max-height: 400px; overflow-y: auto">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Select</th>
+                        <th>College Name</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for college in colleges %}
+                      <tr>
+                        <td>
+                          <input
+                            type="checkbox"
+                            name="selected_colleges"
+                            value="{{ college.id }}"
+                          />
+                        </td>
+                        <td>
+                          {{ college.first_name }} {{ college.last_name }}
+                        </td>
+                        <td>{{ college.username }}</td>
+                      </tr>
+                      {% empty %}
+                      <tr>
+                        <td
+                          colspan="3"
+                          style="text-align: center; padding: 20px"
+                        >
+                          No colleges registered
+                        </td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <h3
+                  style="
+                    margin-bottom: 15px;
+                    text-shadow: 0 0 5px var(--hacker-green);
+                    text-transform: uppercase;
+                  "
+                >
+                  <i class="fas fa-file-pdf"></i> Select Paper
+                </h3>
+
+                <select
+                  name="paper_id"
+                  id="paperSelect"
+                  required
+                  onchange="showPDFViewLink()"
+                >
+                  <option value="">-- Choose Encrypted Paper --</option>
+                  {% for paper in encrypted_papers %}
+                  <option
+                    value="{{ paper.id }}"
+                    data-pdf-url="{{ paper.encrypted_pdf.url }}"
+                  >
+                    {{ paper.exam_name }} ({{ paper.subject_name }})
+                  </option>
+                  {% empty %}
+                  <option disabled>No papers available</option>
+                  {% endfor %}
+                </select>
+
+                <div
+                  id="pdfViewContainer"
+                  style="margin-top: 10px; display: none"
+                >
+                  <a id="pdfViewLink" href="#" target="_blank"
+                    >👁️ View Encrypted PDF</a
+                  >
+                </div>
+                <div class="distribution-notes">
+                  <h4><i class="fas fa-info-circle"></i> Distribution Notes</h4>
+                  <ul>
+                    <li>
+                      Selected colleges will receive encrypted PDF via email
+                    </li>
+                    <li>Decryption keys remain secure in our system</li>
+                    <li>Allow up to 5 minutes for email delivery</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px">
+              <button type="submit">
+                <i class="fas fa-paper-plane"></i> Distribute Selected Paper
+              </button>
+            </div>
+            <div class="hex-data" id="hex-data"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Matrix Background Script
+      const canvas = document.getElementById("matrixCanvas");
+      const ctx = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const katakana =
+        "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン";
+      const latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const nums = "0123456789";
+      const symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+      const alphabet = katakana + latin + nums + symbols;
+
+      const fontSize = 16;
+      const columns = Math.floor(canvas.width / fontSize);
+      const rainDrops = Array(columns).fill(1);
+
+      function drawMatrix() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "#0f0";
+        ctx.font = fontSize + "px monospace";
+
+        for (let i = 0; i < rainDrops.length; i++) {
+          const text = alphabet.charAt(
+            Math.floor(Math.random() * alphabet.length)
+          );
+          const x = i * fontSize;
+          const y = rainDrops[i] * fontSize;
+
+          ctx.fillStyle = `rgba(0, 255, 0, ${Math.random() * 0.5 + 0.5})`;
+          ctx.fillText(text, x, y);
+
+          if (y > canvas.height && Math.random() > 0.975) {
+            rainDrops[i] = 0;
+          }
+
+          rainDrops[i]++;
+        }
+      }
+
+      setInterval(drawMatrix, 33);
+
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+
+      // Generate random hex data
+      function generateHexData() {
+        const hexData = document.getElementById("hex-data");
+        const lines = [];
+        for (let i = 0; i < 8; i++) {
+          let line = "";
+          for (let j = 0; j < 16; j++) {
+            line +=
+              Math.floor(Math.random() * 256)
+                .toString(16)
+                .padStart(2, "0") + " ";
+          }
+          lines.push(line);
+        }
+        hexData.textContent = lines.join("\n");
+      }
+      setInterval(generateHexData, 3000);
+      generateHexData();
+
+      // PDF View Link Script
+      function showPDFViewLink() {
+        const select = document.getElementById("paperSelect");
+        const viewContainer = document.getElementById("pdfViewContainer");
+        const viewLink = document.getElementById("pdfViewLink");
+
+        const selectedOption = select.options[select.selectedIndex];
+        const pdfUrl = selectedOption.getAttribute("data-pdf-url");
+
+        if (pdfUrl) {
+          viewLink.href = pdfUrl;
+          viewContainer.style.display = "block";
+        } else {
+          viewContainer.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

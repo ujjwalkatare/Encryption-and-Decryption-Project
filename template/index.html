@@ -1,0 +1,239 @@
+{% extends "base.html" %} {% block body %}
+
+<!-- Carousel Start -->
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5" style="height: calc(100vh - 80px)">
+  <div
+    id="header-carousel"
+    class="carousel slide carousel-fade h-100"
+    data-bs-ride="carousel"
+    data-bs-interval="3000"
+  >
+    <!-- <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Secure Exam Transfer Overview"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide-to="1"
+        aria-label="University Upload & Encryption"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide-to="2"
+        aria-label="College Decryption After Approval"
+      ></button>
+    </div> -->
+
+    <div class="carousel-inner h-100">
+      <div class="carousel-item h-100 active">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="carousel-caption terminal glow">
+            <h1 class="display-4 mb-4 animated zoomIn">
+              Secure Exam Paper Transfer System
+            </h1>
+            <p class="lead mb-4">AES-256 ENCRYPTION & DECRYPTION</p>
+            <div class="d-flex justify-content-center">
+              <a
+                href="{% url 'user_login' %}"
+                class="btn btn-primary py-3 px-5 me-3 animated slideInLeft cursor"
+                >LOGIN</a
+              >
+            </div>
+            <div class="hex-data" id="hex-data-1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        x
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="carousel-caption terminal glow">
+            <h1 class="display-4 mb-4 animated zoomIn">
+              University Uploads & Encrypts PDFs
+            </h1>
+            <p class="lead mb-4">
+              Encrypted question papers sent via secure email
+            </p>
+            <div class="d-flex justify-content-center">
+              <a
+                href="{% url 'university_register' %}"
+                class="btn btn-primary py-3 px-5 me-3 animated slideInLeft cursor"
+                >UNIVERSITY REGISTRATION</a
+              >
+            </div>
+            <div class="hex-data" id="hex-data-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="carousel-caption terminal glow">
+            <h1 class="display-4 mb-4 animated zoomIn">
+              College Decrypts After Key Approval
+            </h1>
+            <p class="lead mb-4">Decryption only after university approval</p>
+            <div class="d-flex justify-content-center">
+              <a
+                href="{% url 'college_register' %}"
+                class="btn btn-primary py-3 px-5 me-3 animated slideInLeft cursor"
+                >COLLEGE REGISTRATION</a
+              >
+            </div>
+            <div class="hex-data" id="hex-data-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#header-carousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#header-carousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Carousel End -->
+
+<style>
+  .cursor::after {
+    content: "▋";
+    animation: blink 1.2s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .carousel-caption h1 {
+    text-shadow: 0 0 10px var(--hacker-green);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .hex-data {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    color: rgba(0, 255, 0, 0.7);
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+
+  .status-bar {
+    border-bottom: 1px solid var(--hacker-green);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+
+  .status-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: var(--hacker-green);
+    box-shadow: 0 0 5px var(--hacker-green);
+  }
+
+  @media (max-width: 768px) {
+    .carousel-caption h1 {
+      font-size: 2rem;
+    }
+
+    .status-bar {
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<script>
+  // Update datetime
+  function updateDateTime() {
+    const now = new Date();
+    document.querySelectorAll("#datetime").forEach((el) => {
+      el.textContent =
+        now.toISOString().replace("T", " ").substring(0, 19) + " UTC";
+    });
+  }
+  setInterval(updateDateTime, 1000);
+  updateDateTime();
+
+  // Generate random hex data
+  function generateHexData(id) {
+    const hexData = document.getElementById(id);
+    const lines = [];
+    for (let i = 0; i < 8; i++) {
+      let line = "";
+      for (let j = 0; j < 16; j++) {
+        line +=
+          Math.floor(Math.random() * 256)
+            .toString(16)
+            .padStart(2, "0") + " ";
+      }
+      lines.push(line);
+    }
+    hexData.textContent = lines.join("\n");
+  }
+
+  // Initialize and update hex data
+  generateHexData("hex-data-1");
+  generateHexData("hex-data-2");
+  generateHexData("hex-data-3");
+  setInterval(() => {
+    generateHexData("hex-data-1");
+    generateHexData("hex-data-2");
+    generateHexData("hex-data-3");
+  }, 3000);
+
+  // Initialize carousel with 3 second interval
+  document.addEventListener("DOMContentLoaded", function () {
+    var myCarousel = document.getElementById("header-carousel");
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 5000,
+      wrap: true,
+    });
+  });
+</script>
+
+{% endblock body %}

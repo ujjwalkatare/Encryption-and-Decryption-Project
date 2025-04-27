@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encrypted Paper Details</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .pdf-preview {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2><strong>Encrypted Paper Details</strong></h2>
+    <p><strong>Exam Name:</strong> {{ paper.exam_name }}</p>
+    <p><strong>Subject Name:</strong> {{ paper.subject_name }}</p>
+    <p><strong>Uploaded At:</strong> {{ paper.uploaded_at }}</p>
+    <p><strong>Uploaded By:</strong> {{ paper.uploaded_by.email }}</p>
+
+    <h3>Encrypted PDF:</h3>
+    {% if paper.encrypted_pdf %}
+    <a href="{{ paper.encrypted_pdf.url }}" download class="btn btn-primary">
+      📄 Download Encrypted PDF
+    </a>
+    {% else %}
+    <p><em>No encrypted PDF found.</em></p>
+    {% endif %}
+
+    <p style="margin-top: 20px; color: red">
+      ⚠️ This PDF is encrypted. You must request and receive the AES key to
+      decrypt and view it.
+    </p>
+  </body>
+</html>

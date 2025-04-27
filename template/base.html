@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Encryption And Decryption</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="static/img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="static/lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      href="static/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="static/lib/animate/animate.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="static/css/style.css" rel="stylesheet" />
+
+    <!-- Hacker Theme CSS -->
+    <style>
+      :root {
+        --hacker-green: #0f0;
+        --terminal-bg: rgba(0, 20, 0, 0.8);
+      }
+
+      body {
+        background-color: #000;
+        color: var(--hacker-green);
+        font-family: "Share Tech Mono", monospace;
+        overflow-x: hidden;
+        position: relative;
+        min-height: 100vh;
+        padding-top: 80px; /* Added to prevent navbar overlap */
+      }
+
+      /* Matrix Background */
+      #matrixCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.15;
+      }
+
+      /* CRT Effect */
+      .crt-effect {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        background: linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      .crt-effect::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(
+          circle at center,
+          transparent 70%,
+          rgba(0, 0, 0, 0.8)
+        );
+      }
+
+      /* Navbar Styling */
+      .navbar {
+        background-color: rgba(0, 20, 0, 0.7) !important;
+        border-bottom: 1px solid var(--hacker-green) !important;
+        box-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      .navbar-brand h1 {
+        text-shadow: 0 0 5px var(--hacker-green);
+        font-size: 1.8rem;
+      }
+
+      .text-primary {
+        color: var(--hacker-green) !important;
+      }
+
+      .text-secondary {
+        color: #0a0 !important;
+      }
+
+      .nav-link {
+        color: var(--hacker-green) !important;
+        text-shadow: 0 0 3px var(--hacker-green);
+        font-size: 1.1rem;
+      }
+
+      .nav-link:hover {
+        color: #0f0 !important;
+        text-shadow: 0 0 10px var(--hacker-green);
+      }
+
+      .dropdown-menu {
+        background-color: rgba(0, 30, 0, 0.9) !important;
+        border: 1px solid var(--hacker-green) !important;
+      }
+
+      .dropdown-item {
+        color: var(--hacker-green) !important;
+      }
+
+      .dropdown-item:hover {
+        background-color: rgba(0, 50, 0, 0.7) !important;
+      }
+
+      /* Glow Effects */
+      .glow {
+        text-shadow: 0 0 5px var(--hacker-green), 0 0 10px var(--hacker-green),
+          0 0 20px rgba(0, 255, 0, 0.5);
+      }
+
+      /* Button Styling */
+      .btn-primary {
+        background-color: transparent !important;
+        border: 1px solid var(--hacker-green) !important;
+        color: var(--hacker-green) !important;
+        text-shadow: 0 0 5px var(--hacker-green);
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background-color: rgba(0, 255, 0, 0.2) !important;
+        box-shadow: 0 0 10px var(--hacker-green);
+        transform: translateY(-2px);
+      }
+
+      /* Carousel Styling */
+      .carousel-caption {
+        background-color: rgba(0, 20, 0, 0.7);
+        border: 1px solid var(--hacker-green);
+        box-shadow: 0 0 15px var(--hacker-green);
+        padding: 2rem;
+        border-radius: 5px;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: 20%;
+        transform: translateY(-50%);
+      }
+
+      /* Terminal-like text */
+      .terminal-text {
+        font-family: "Share Tech Mono", monospace;
+        color: var(--hacker-green);
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .navbar-collapse {
+          background-color: rgba(0, 30, 0, 0.95) !important;
+          border: 1px solid var(--hacker-green);
+          box-shadow: 0 0 10px var(--hacker-green);
+        }
+
+        .carousel-caption {
+          width: 90%;
+          padding: 1rem;
+        }
+
+        .navbar-brand h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Matrix Background Canvas -->
+    <canvas id="matrixCanvas"></canvas>
+    <div class="crt-effect"></div>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <h1 class="m-0 text-primary">
+            Encryption<span class="text-secondary">And Decryption</span>
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            {% if user.is_authenticated %}
+            <a href="{% url 'log_out' %}" class="nav-item nav-link active me-3"
+              >Logout</a
+            >
+            {% else %}
+            <a href="/" class="nav-item nav-link me-3">Home</a>
+            <a href="{% url 'user_login' %}" class="nav-item nav-link me-3"
+              >Login</a
+            >
+
+            <!-- Dropdown for Register -->
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle me-3"
+                data-bs-toggle="dropdown"
+                >Register</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="{% url 'university_register' %}" class="dropdown-item"
+                  >University Registration</a
+                >
+                <a href="{% url 'college_register' %}" class="dropdown-item"
+                  >College Registration</a
+                >
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    {% block body %} {% endblock body %}
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/lib/wow/wow.min.js"></script>
+    <script src="static/lib/easing/easing.min.js"></script>
+    <script src="static/lib/waypoints/waypoints.min.js"></script>
+    <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="static/js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Matrix Background Script -->
+    <script>
+      const canvas = document.getElementById("matrixCanvas");
+      const ctx = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const katakana =
+        "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン";
+      const latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const nums = "0123456789";
+      const symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+      const alphabet = katakana + latin + nums + symbols;
+
+      const fontSize = 16;
+      const columns = Math.floor(canvas.width / fontSize);
+      const rainDrops = Array(columns).fill(1);
+
+      function drawMatrix() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "#0f0";
+        ctx.font = fontSize + "px monospace";
+
+        for (let i = 0; i < rainDrops.length; i++) {
+          const text = alphabet.charAt(
+            Math.floor(Math.random() * alphabet.length)
+          );
+          const x = i * fontSize;
+          const y = rainDrops[i] * fontSize;
+
+          ctx.fillStyle = `rgba(0, 255, 0, ${Math.random() * 0.5 + 0.5})`;
+          ctx.fillText(text, x, y);
+
+          if (y > canvas.height && Math.random() > 0.975) {
+            rainDrops[i] = 0;
+          }
+
+          rainDrops[i]++;
+        }
+      }
+
+      setInterval(drawMatrix, 33);
+
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+    </script>
+
+    {% for message in messages %} {% if message.tags == 'success' %}
+    <script>
+      var m = "{{ message }}";
+      swal("Success!", m, "success");
+    </script>
+    {% elif message.tags == 'error' %}
+    <script>
+      var m = "{{ message }}";
+      swal("Error!", m, "error");
+    </script>
+    {% elif message.tags == 'info' %}
+    <script>
+      var m = "{{ message }}";
+      swal(m, "Take care of yourself!!!", "info");
+    </script>
+    {% endif %} {% endfor %}
+  </body>
+</html>

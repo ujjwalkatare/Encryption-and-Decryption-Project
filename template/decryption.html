@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block body %}
+<style>
+    /* Custom Styles for Sidebar, Main Content, and Layout */
+    body {
+        background-color: #a6c7f8; 
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background-color: #343a40;
+        padding: 10px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .navbar a:hover {
+        background-color: #007bff;
+    }
+
+    .sidebar {
+        width: 300px;
+        background-color: #343a40;
+        position: fixed;
+        top: 60px; /* Adjusting for the navbar height */
+        left: 0;
+        bottom: 0;
+        padding-top: 20px;
+        padding-left: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .sidebar a {
+        color: #ffffff;
+        display: block;
+        padding: 12px 20px 25px 20px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .sidebar a:hover {
+        background-color: #007bff;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin-left: 320px;
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+
+    .container {
+        max-width: 800px;
+        width: 100%;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 18px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    h2.text-center {
+        font-size: 2.2rem;
+        color: #020202;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+        .sidebar {
+            width: 250px; /* Adjust for smaller screens */
+            padding-left: 15px;
+        }
+
+        .main-content {
+            margin-left: 270px; /* Adjust to leave space for the sidebar */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2.text-center {
+            font-size: 1.8rem;
+        }
+
+        .form-control {
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            font-size: 1rem;
+        }
+    }
+</style>
+
+<!-- Sidebar Content -->
+<div class="sidebar">
+    <a href="{% url 'index' %}">Home</a>
+    <a href="/decryptpdf">Download PDF</a>
+</div>
+
+<!-- Main Content Area -->
+<div class="main-content">
+    <div class="container">
+        <h2 class="text-center">Download Encrypted PDF</h2>
+
+        {% if encrypted_pdf_path %}
+        <p>File Name: {{ file_name }}</p>
+        <a href="{{ MEDIA_URL }}{{ encrypted_pdf_path }}" class="btn btn-success" download>Download Encrypted PDF</a>
+        {% else %}
+        <p>No encrypted PDF available for download.</p>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}
